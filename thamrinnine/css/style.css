@@ -6,27 +6,27 @@ body{
 }
 @font-face{
   font-family: "Akkurat Pro Regular";
-  src: url(../fonts/AkkuratPro-Regular.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/AkkuratPro-Regular.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Light";
-  src: url(../fonts/Akkurat-Light.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-Light.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Light Italic";
-  src: url(../fonts/Akkurat-LightItalic.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-LightItalic.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Bold";
-  src: url(../fonts/Akkurat-Bold.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-Bold.otf) format("opentype");
 }
 @font-face{
   font-family: "LustPro-No1";
-  src: url(../fonts/LustPro-No1.ttf) format("truetype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/LustPro-No1.ttf) format("truetype");
 }
 @font-face{
   font-family: "LustPro-No5";
-  src: url(../fonts/LustPro-No5.ttf) format("truetype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/LustPro-No5.ttf) format("truetype");
 }
 img{max-width: 100%;}
 p,a,label,th,td,span,li,input,textarea{
@@ -123,7 +123,7 @@ a[data-toggle="collapse"]{cursor:pointer;}
   height: 100vh;
   z-index: 99;
   background-color: #FFFFFF !important;
-  background: url("https://thamrinnine.com/wp-content/themes/fethamrinnine/images/preloader.gif") center no-repeat #fff;
+  background: url("https://website-assets.netlify.app/thamrinnine/img/preloader.gif") center no-repeat #fff;
   background-size: 100vw;
   transition: all .3s;
 }
@@ -251,12 +251,12 @@ a[data-toggle="collapse"]{cursor:pointer;}
   width: 11vh;
   height: 11vh;
 }
-.owl-icon-box-left{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/icon-box-left.png') !important;}
-.owl-icon-box-right{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/icon-box-right.png') !important;}
-.owl-icon-left-linegold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;}
-.owl-icon-right-linegold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;}
-.owl-icon-left-gold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;}
-.owl-icon-right-gold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;}
+.owl-icon-box-left{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/icon-box-left.png') !important;}
+.owl-icon-box-right{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/icon-box-right.png') !important;}
+.owl-icon-left-linegold{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-gold.png') !important;}
+.owl-icon-right-linegold{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-gold.png') !important;}
+.owl-icon-left-gold{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;}
+.owl-icon-right-gold{background: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;}
 
 
 
