@@ -6,27 +6,27 @@ body{
 }
 @font-face{
   font-family: "Akkurat Pro Regular";
-  src: url(fonts/AkkuratPro-Regular.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/AkkuratPro-Regular.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Light";
-  src: url(fonts/Akkurat-Light.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-Light.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Light Italic";
-  src: url(fonts/Akkurat-LightItalic.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-LightItalic.otf) format("opentype");
 }
 @font-face{
   font-family: "Akkurat Bold";
-  src: url(fonts/Akkurat-Bold.otf) format("opentype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/Akkurat-Bold.otf) format("opentype");
 }
 @font-face{
   font-family: "LustPro-No1";
-  src: url(fonts/LustPro-No1.ttf) format("truetype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/LustPro-No1.ttf) format("truetype");
 }
 @font-face{
   font-family: "LustPro-No5";
-  src: url(fonts/LustPro-No5.ttf) format("truetype");
+  src: url(https://website-assets.netlify.app/thamrinnine/fonts/LustPro-No5.ttf) format("truetype");
 }
 img{max-width: 100%;}
 p,a,label,th,td,span,li,input,textarea{
