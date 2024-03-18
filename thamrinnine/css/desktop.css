@@ -1162,11 +1162,11 @@
 }
 .panel03 .btnSC03.btnSC0301::after{
   left: 100%;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
 }
 .panel03 .btnSC03.btnSC0302::after{
   right: 100%;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
 }
 /* Section Popup Default */
 .towerFP .modal-dialog{
@@ -1211,7 +1211,7 @@
   right: 11vw;
   width: 4vw;
   height: 4vw;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
   background-repeat: no-repeat !important;
   background-size: 40% !important;
   background-position: center !important;
@@ -1224,7 +1224,7 @@
 #towerWrap02.towerFP .modal-dialog .modal-content .btnFP-nav{
   left: 11vw;
   right: unset;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
 }
 .towerFP .modal-dialog .modal-content .title{
   position: absolute;
@@ -1972,11 +1972,11 @@
   transition: all .3s;
 }
 .panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-left-linegold{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
   transition: all .3s;
 }
 .panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-right-linegold{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
   transition: all .3s;
 }
 .panel07 .slider .secbuildingfeatures-carousel .item .logo{
@@ -2090,20 +2090,20 @@
   transition: all .5s;
 }
 .panel08 .navSlider .navsecfacilitiesPrevBtn{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-gold.png') !important;
   transition: all .5s;
 }
 .panel08 .navSlider .navsecfacilitiesNextBtn{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-gold.png') !important;
   transition: all .5s;
   float: right;
 }
 .panel08 .navSlider .navsecfacilitiesPrevBtn:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
   transition: all .5s;
 }
 .panel08 .navSlider .navsecfacilitiesNextBtn:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
   transition: all .5s;
 }
 .panel08 .navSlider .disable{
@@ -2259,22 +2259,22 @@
 .panel09 .navSlider .navsecpanoramaPrevBtn{
   position: relative;
   z-index: 2;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
   transition: all .5s;
 }
 .panel09 .navSlider .navsecpanoramaNextBtn{
   position: relative;
   z-index: 2;
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
   transition: all .5s;
   float: right;
 }
 .panel09 .navSlider .navsecpanoramaPrevBtn:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-gold.png') !important;
   transition: all .5s;
 }
 .panel09 .navSlider .navsecpanoramaNextBtn:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-gold.png') !important;
   transition: all .5s;
 }
 .panel09 .navSlider .navsecpanoramaPrevBtn.disable,
@@ -2290,10 +2290,10 @@
   background-color: #C2AD80 !important;
 }
 .panel09 .navSlider .navsecpanoramaPrevBtn.disable:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-left-white.png') !important;
 }
 .panel09 .navSlider .navsecpanoramaNextBtn.disable:hover{
-  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-image: url('https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-white.png') !important;
 }
 .panel09 .navSlider .navsecpanoramaPrevBtn.disable{
   left: 0;
@@ -3053,7 +3053,7 @@ footer #main-footer .inquire form input[type="submit"]{
   padding: 1.2vw 3vw 1.2vw 1vw;
   width: 43%;
   color: #C2AD80;
-  background: url("https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png");
+  background: url("https://website-assets.netlify.app/thamrinnine/img/icon/arrow-right-gold.png");
   background-repeat: no-repeat;
   background-size: 1.3vw;
   background-position: 63%;
