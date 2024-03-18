@@ -1,0 +1,380 @@
+body{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+@font-face{
+  font-family: "Akkurat Pro Regular";
+  src: url(../fonts/AkkuratPro-Regular.otf) format("opentype");
+}
+@font-face{
+  font-family: "Akkurat Light";
+  src: url(../fonts/Akkurat-Light.otf) format("opentype");
+}
+@font-face{
+  font-family: "Akkurat Light Italic";
+  src: url(../fonts/Akkurat-LightItalic.otf) format("opentype");
+}
+@font-face{
+  font-family: "Akkurat Bold";
+  src: url(../fonts/Akkurat-Bold.otf) format("opentype");
+}
+@font-face{
+  font-family: "LustPro-No1";
+  src: url(../fonts/LustPro-No1.ttf) format("truetype");
+}
+@font-face{
+  font-family: "LustPro-No5";
+  src: url(../fonts/LustPro-No5.ttf) format("truetype");
+}
+img{max-width: 100%;}
+p,a,label,th,td,span,li,input,textarea{
+  margin-bottom: 3vh;
+  font-family: "Akkurat Light";
+  font-size: 0.8vw;
+  line-height: 1.2vw;
+  letter-spacing: 0.07vw;
+  color: #231F20;
+}
+i{
+  font-family: "Akkurat Light Italic";
+  font-style: normal;
+}
+a{text-decoration: none !important;transition: all .3s;}
+a[data-toggle="collapse"]{cursor:pointer;}
+
+/* Text Color */
+.text-gold{color: #C2AD80 !important;}
+.text-golddark{color: #A48F69 !important;}
+
+/* Button Color */
+.compBtn{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+  padding: 2vh 4vw 2vh 3vw;
+  width: auto;
+  letter-spacing: 0.05vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 50vw;
+}
+.compBtn img{
+  position: absolute;
+  top: 32%;
+  right: 1.5vw;
+  width: 1.3vw !important;
+}
+.compBtn:hover{
+  color: #FFFFFF;
+}
+.compBtn.btn-gold{
+  background: #C2AD80;
+  border: 0.1vh solid #C2AD80;
+}
+.compBtn.btn-blue{
+  background: #143C89;
+  border: 0.1vh solid #143C89;
+}
+
+/* Line */
+.compLine{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0.11vh;
+  background: #143C89;
+}
+
+/* Box */
+.boxv{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.boxc{
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Image */
+.imgCover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imgFull{
+  width: 100%;
+  height: 100%;
+}
+
+/* Preloader */
+.preloader{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  background-color: #FFFFFF !important;
+  background: url("https://thamrinnine.com/wp-content/themes/fethamrinnine/images/preloader.gif") center no-repeat #fff;
+  background-size: 100vw;
+  transition: all .3s;
+}
+
+/* Go to Target */
+.gotoTarget{
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+/* Building Features */
+.compBFTitle{
+  position: absolute;
+  padding: 6vh 2vw;
+  background: #143C89;
+}
+.compBFTitle h3{
+  margin-bottom: 0;
+  font-family: "Akkurat Pro Regular";
+  font-size: 2.92vw;
+  line-height: 6vh;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.compBFImage,.compBFHeading,.compBFBtn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.compBFTarget{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 5vw;
+  width: 3vw;
+}
+.compBFTarget a{
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto 3vh;
+  width: 5vh;
+  height: 5vh;
+  border: 0.1vh solid transparent;
+  border-radius: 50vw;
+  transition: all .3s;
+  cursor: pointer;
+}
+.compBFTarget a:last-child{
+  margin-bottom: 0;
+}
+.compBFTarget a::after{
+  content: '';
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 1.3vw;
+  height: 1.3vw;
+  background: #C2AD80;
+  border-radius: 50vw;
+  transition: all .3s;
+}
+.compBFTarget a:hover,
+.compBFTarget a.active{
+  border: 0.1vh solid #C2AD80;
+}
+
+/* Architects */
+.SACompBrief{
+  position: absolute;
+  z-index: 3;
+  margin: 0 auto;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  height: 68vh;
+  transition: all 0.1s;
+}
+.SACompBrief h6{
+  margin-bottom: 3vh;
+  font-family: "Akkurat Light";
+  font-size: 1vw;
+  color: #FFFFFF;
+}
+.SACompBrief h6 b{
+  font-family: "Akkurat Bold";
+  font-weight: unset;
+}
+.SACompBrief h4{
+  font-family: "Akkurat Pro Regular";
+  font-size: 2vw;
+  line-height: 6vh;
+  text-transform: uppercase;
+  color: #C2AD80; 
+}
+.SACompLogo{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 18vh;
+  height: 18vh;
+}
+
+/* Owl Carousel */
+.owl-prev:hover,.owl-next:hover,.owl-prev:focus,.owl-next:focus{
+  background: transparent !important;
+  outline: none;
+}
+.owl-dots .owl-dot{outline: none !important;}
+.owl-dots .owl-dot.active span{background: #0a0a0a !important;}
+.owl-dots .owl-dot:hover span{background: #0a0a0a !important;}
+.owl-nav span{
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+  padding: 0 !important;
+  width: 11vh;
+  height: 11vh;
+}
+.owl-icon-box-left{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/icon-box-left.png') !important;}
+.owl-icon-box-right{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/icon-box-right.png') !important;}
+.owl-icon-left-linegold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;}
+.owl-icon-right-linegold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;}
+.owl-icon-left-gold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;}
+.owl-icon-right-gold{background: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;}
+
+
+
+
+/* ======================================================= */
+/*                          MOBILE                         */
+/* ======================================================= */
+@media screen and (max-width: 846px){
+
+  body{}
+  
+  p,a,label,th,td,span,li,input,textarea{
+    margin-bottom: 3vh;
+    font-size: 3.5vw;
+    line-height: 5.5vw;
+  }
+    
+  /* Button Color */
+  .compBtn{
+    padding: 2vh 18vw 2vh 10vw;
+  }
+  .compBtn img{
+    top: 30%;
+    right: 8vw;
+    width: 5vw !important;
+  }
+  .compBtn:hover{}
+  .compBtn.btn-gold{}
+  .compBtn.btn-blue{}
+    
+  /* Ornament */
+  .compOrnament{}
+
+  /* Building Features */
+  .compBFTitle{
+    padding: 4vh 5vw;
+  }
+  .compBFTitle h3{
+    margin-bottom: 0;
+    font-size: 5vw;
+    line-height: 3vh;
+  }
+  .compBFTarget,
+  .compBFHeading{
+    display: none;
+  }
+
+  /* Architects */
+  .SACompBrief{
+    width: 90vw;
+  }
+  .SACompBrief h6{
+    margin-bottom: 2vh;
+    font-size: 3.6vw;
+  }
+  .SACompBrief h6 b{}
+  .SACompBrief h4{
+    font-size: 5vw;
+    line-height: 4.2vh;
+  }
+  .SACompLogo{
+    width: 16vh;
+    height: 16vh;
+  }
+  
+  /* Owl Carousel */
+  .owl-dots .owl-dot.active span{}
+  .owl-dots .owl-dot:hover span{}
+    
+  /* Owl Carousel Arrow */
+  .owl-nav span{}
+  
+  /* Component Text Outline */
+  .compTextOutline{}
+  .compTextOutline.ctoBack{}
+  .compTextOutlineImg{}
+  .compTextOutlineBg{}
+  .compTextOutlineWrapper{}
+  .compTextOutline.ctoFront{}
+    
+  /* CTO01 */
+  .compTextOutline.ctoItem01{}
+  .compTextOutline.ctoBack.ctoItem01{}
+  .compTextOutlineBg.ctoItem01,
+  .compTextOutlineWrapper.ctoItem01{}
+  .compTextOutlineBg.ctoItem01{}
+  .compTextOutline.ctoFront.ctoItem01{}
+    
+  /* CTO02 */
+  .compTextOutline.ctoItem02{}
+  .compTextOutline.ctoBack.ctoItem02{}
+  .compTextOutlineBg.ctoItem02,
+  .compTextOutlineWrapper.ctoItem02{}
+  .compTextOutline.ctoFront.ctoItem02{}
+    
+  /* CTO03 */
+  .compTextOutline.ctoItem03{}
+  .compTextOutline.ctoBack.ctoItem03{}
+  .compTextOutlineBg.ctoItem03,
+  .compTextOutlineWrapper.ctoItem03{}
+  .compTextOutline.ctoFront.ctoItem03{}
+    
+  /* CTO04 */
+  .compTextOutline.ctoItem04{}
+  .compTextOutline.ctoBack.ctoItem04{}
+  .compTextOutlineBg.ctoItem04,
+  .compTextOutlineWrapper.ctoItem04{}
+  .compTextOutline.ctoFront.ctoItem04{}
+    
+  /* Preloader */
+  .preloader{
+    background-size: 250vw;
+  }
+    
+  /* Go to Target */
+  .gotoTarget{}
+  
+  }
+  /* ======================================================= */
+  /*                       END MOBILE                        */
+  /* ======================================================= */

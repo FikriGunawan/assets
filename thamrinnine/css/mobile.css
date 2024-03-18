@@ -1,0 +1,3126 @@
+@media screen and (max-width: 846px){
+
+
+
+/* ======================================================= */
+/*                          BASE                           */
+/* ======================================================= */
+/* General */
+#mainWrap{
+  /*
+  overflow: hidden; 
+  height: 2700vh;
+  */
+}
+#mainWrap .scrollify-panel{}
+#mainWrap .scrollify-panel.panel01,
+#mainWrap .scrollify-panel.panel22{}
+#mainWrap .scrollify-panel.panel03,
+#mainWrap .scrollify-panel.panel04,
+#mainWrap .scrollify-panel.panel05,
+#mainWrap .scrollify-panel.panel06,
+#mainWrap .scrollify-panel.panel07{}
+#mainWrap .scrollify-panel.panel04,
+#mainWrap .scrollify-panel.panel05,
+#mainWrap .scrollify-panel.panel06,
+#mainWrap .scrollify-panel.panel07{z-index: 6;}
+#mainWrap .panel10,
+#mainWrap .scrollify-panel.panel11,
+#mainWrap .scrollify-panel.panel12,
+#mainWrap .scrollify-panel.panel13,
+#mainWrap .scrollify-panel.panel14,
+#mainWrap .scrollify-panel.panel15,
+#mainWrap .scrollify-panel.panel16,
+#mainWrap .scrollify-panel.panel17,
+#mainWrap .scrollify-panel.panel18,
+#mainWrap .scrollify-panel.panel19,
+#mainWrap .scrollify-panel.panel20,
+#mainWrap .scrollify-panel.panel24{}
+#mainWrap .scrollify-panel.panel21{}
+#mainWrap .scrollify-panel.panel22{}
+#mainWrap .scrollify-panel.panel23{}
+#mainWrap .scrollify-panel.panel26{}
+#mainWrap .scrollify-panel.panel04,
+#mainWrap .scrollify-panel.panel05,
+#mainWrap .scrollify-panel.panel06,
+#mainWrap .scrollify-panel.panel07,
+#mainWrap .scrollify-panel.panel11,
+#mainWrap .scrollify-panel.panel12,
+#mainWrap .scrollify-panel.panel13,
+#mainWrap .scrollify-panel.panel14,
+#mainWrap .scrollify-panel.panel15,
+#mainWrap .scrollify-panel.panel16,
+#mainWrap .scrollify-panel.panel17,
+#mainWrap .scrollify-panel.panel18,
+#mainWrap .scrollify-panel.panel19,
+#mainWrap .scrollify-panel.panel20{}
+/*
+#mainWrap .scrollify-panel.panel01{background-color: tomato;}
+#mainWrap .scrollify-panel.panel02{background-color: springgreen;}
+#mainWrap .scrollify-panel.panel03{background-color: mediumturquoise;}
+#mainWrap .scrollify-panel.panel04{background-color: gold;}
+#mainWrap .scrollify-panel.panel05{background-color: violet;}
+#mainWrap .scrollify-panel.panel06{background-color: plum;}
+#mainWrap .scrollify-panel.panel07{background-color: sandybrown;}
+#mainWrap .scrollify-panel.panel08{background-color: silver;}
+#mainWrap .scrollify-panel.panel09{background-color: red;}
+#mainWrap .panel10{background-color: green;}
+#mainWrap .scrollify-panel.panel11{background-color: blue;}
+#mainWrap .scrollify-panel.panel12{background-color: yellow;}
+#mainWrap .scrollify-panel.panel13{background-color: purple;}
+#mainWrap .scrollify-panel.panel14{background-color: pink;}
+#mainWrap .scrollify-panel.panel15{background-color: brown;}
+#mainWrap .scrollify-panel.panel16{background-color: grey;}
+#mainWrap .scrollify-panel.panel17{background-color: tomato;}
+#mainWrap .scrollify-panel.panel18{background-color: springgreen;}
+#mainWrap .scrollify-panel.panel19{background-color: mediumturquoise;}
+#mainWrap .scrollify-panel.panel20{background-color: gold;}
+#mainWrap .scrollify-panel.panel21{background-color: violet;}
+#mainWrap .scrollify-panel.panel22{background-color: plum;}
+#mainWrap .scrollify-panel.panel23{background-color: sandybrown;}
+#mainWrap .scrollify-panel.panel24{background-color: silver;}
+#mainWrap .scrollify-panel.panel25{background-color: red;}
+#mainWrap .scrollify-panel.panel26{background-color: green;}
+*/
+/* End General */
+
+/* Section Sticky Wrapper */
+.stickyWrapper{}
+.stickyWrapper .buildingFeatures{}
+.stickyWrapper .buildingFeatures.show{}
+.stickyWrapper .buildingFeatures01 .compBFTarget{}
+.stickyWrapper .buildingFeatures02 .compBFTarget{}
+.stickyWrapper .buildingFeatures03 .compBFTarget{}
+.stickyWrapper .buildingFeatures04 .compBFTarget{}
+/* End Section Sticky Wrapper */
+
+/* Section Location Walk */
+.stickyWrapper .locationWalk{}
+.stickyWrapper .locationWalk.show{}
+.stickyWrapper .locationWalk .circle{}
+.stickyWrapper .locationWalk .circle::after{}
+.stickyWrapper .locationWalk .circle.active{}
+.stickyWrapper .locationWalk .circle.active::after{}
+.stickyWrapper .locationWalk .circle.logo{}
+.stickyWrapper .locationWalk .circle.logo .image{}
+.stickyWrapper .locationWalk .circle.circle01{}
+.stickyWrapper .locationWalk .circle.circle01::after{}
+.stickyWrapper .locationWalk .circle.circle02{}
+.stickyWrapper .locationWalk .circle.circle02::after{}
+.stickyWrapper .locationWalk .circle.circle03{}
+.stickyWrapper .locationWalk .circle.circle03::after{}
+.stickyWrapper .locationWalk .circle.circle04{}
+.stickyWrapper .locationWalk .circle.circle04::after{}
+.stickyWrapper .locationWalk .circle.circle05{}
+.stickyWrapper .locationWalk .circle.circle05::after{}
+.stickyWrapper .locationWalk .info{}
+.stickyWrapper .locationWalk .info h3{}
+.stickyWrapper .locationWalk .info p{}
+.stickyWrapper .locationWalk .info h5{}
+.stickyWrapper .locationWalk .desc{}
+.stickyWrapper .locationWalk .desc .image{}
+.stickyWrapper .locationWalk .desc p{}
+.stickyWrapper .locationWalk .desc h5{}
+.stickyWrapper .locationWalk .circle{
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  opacity: 0.3;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 30vh;
+  height: 30vh;
+  border: 0.11vh solid #143C89;
+  border-radius: 50vw;
+}
+.stickyWrapper .locationWalk .circle::after{
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 0.11vh;
+}
+.stickyWrapper .locationWalk .circle.active{
+  opacity: 1;
+}
+.stickyWrapper .locationWalk .circle.active::after{
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  background: #143C89;
+  border-radius: 50vw;
+}
+.stickyWrapper .locationWalk .circle.logo{
+  z-index: 6;
+  opacity: 1;
+  width: 14vw;
+  height: 14vw;
+  background: #143C89;
+}
+.stickyWrapper .locationWalk .circle.logo .image{
+  width: 70%;
+}
+.stickyWrapper .locationWalk .circle.circle01{
+  z-index: 5;
+  top: 50%;
+  width: 25vw;
+  height: 25vw;
+}
+.stickyWrapper .locationWalk .circle.circle01::after{
+  top: 85%;
+  left: 10%;
+}
+.stickyWrapper .locationWalk .circle.circle02{
+  z-index: 4;
+  top: 50%;
+  width: 40vw;
+  height: 40vw;
+}
+.stickyWrapper .locationWalk .circle.circle02::after{
+  top: 85%;
+  right: 10%;
+}
+.stickyWrapper .locationWalk .circle.circle03{
+  z-index: 3;
+  top: 50%;
+  width: 55vw;
+  height: 55vw;
+}
+.stickyWrapper .locationWalk .circle.circle03::after{
+  top: 92%;
+  left: 20%;
+}
+.stickyWrapper .locationWalk .circle.circle04{
+  z-index: 2;
+  top: 50%;
+  width: 70vw;
+  height: 70vw;
+}
+.stickyWrapper .locationWalk .circle.circle04::after{
+  top: 83%;
+  right: 10%;
+}
+.stickyWrapper .locationWalk .circle.circle05{
+  z-index: 1;
+  top: 50%;
+  width: 85vw;
+  height: 85vw;
+}
+.stickyWrapper .locationWalk .circle.circle05::after{
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.stickyWrapper .locationWalk .info{
+  position: absolute;
+  opacity: 0;
+  z-index: 7;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 55vw;
+  height: 30vh;
+  text-align: center;
+}
+.stickyWrapper .locationWalk .info h3{
+  margin-bottom: 2vh;
+  font-family: "LustPro-No5";
+  color: #A48F69;
+  font-size: 20vw;
+  line-height: 10vh;
+}
+.stickyWrapper .locationWalk .info p{
+  margin-bottom: 1vh;
+  letter-spacing: 0;
+  color: #143C89;
+}
+.stickyWrapper .locationWalk .info h5{
+  margin-bottom: 0;
+  font-family: "Akkurat Pro Regular";
+  font-size: 4.3vw;
+  line-height: 3.5vh;
+  color: #143C89;
+}
+.stickyWrapper .locationWalk .desc{
+  position: absolute;
+  opacity: 0;
+  z-index: 7;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 60vw;
+  height: 37vh;
+  background: #143C89;
+}
+.stickyWrapper .locationWalk .desc .image{
+  width: 100%;
+}
+.stickyWrapper .locationWalk .desc p{
+  margin: 0;
+  padding: 2vh 5vw 0.1vh;
+}
+.stickyWrapper .locationWalk .desc h5{
+  margin: 0;
+  padding: 0 5vw 3vh;
+  font-family: "Akkurat Pro Regular";
+  font-size: 4vw;
+  line-height: 3.5vh;
+}
+/* Location Walk 01 */
+.stickyWrapper .locationWalk01{}
+.stickyWrapper .locationWalk01.show{}
+.stickyWrapper .locationWalk01 .info{
+  right: 21.5%;
+}
+.stickyWrapper .locationWalk01.show .info{}
+.stickyWrapper .locationWalk01 .desc,
+.stickyWrapper .locationWalk01.show .desc{
+  left: 30%;
+}
+.stickyWrapper .locationWalk01.show .info{
+  opacity: 1;
+  top: 71%;
+}
+.stickyWrapper .locationWalk01.show .desc{
+  opacity: 1;
+  top: 25%;
+}
+/* End Location Walk 01 */
+/* Location Walk 02 */
+.stickyWrapper .locationWalk02{}
+.stickyWrapper .locationWalk02.show{}
+.stickyWrapper .locationWalk02 .info{
+  left: 36%;
+}
+.stickyWrapper .locationWalk02.show .info{}
+.stickyWrapper .locationWalk02 .desc,
+.stickyWrapper .locationWalk02.show .desc{
+  right: 30%;
+}
+.stickyWrapper .locationWalk02.show .info{
+  opacity: 1;
+  top: 75%;
+}
+.stickyWrapper .locationWalk02.show .desc{
+  opacity: 1;
+  top: 24%;
+}
+/* End Location Walk 02 */
+/* Location Walk 03 */
+.stickyWrapper .locationWalk03{}
+.stickyWrapper .locationWalk03.show{}
+.stickyWrapper .locationWalk03 .info{
+  right: 35.5%;
+}
+.stickyWrapper .locationWalk03.show .info{}
+.stickyWrapper .locationWalk03 .desc,
+.stickyWrapper .locationWalk03.show .desc{
+  left: 25%;
+}
+.stickyWrapper .locationWalk03.show .info{
+  opacity: 1;
+  top: 80%;
+}
+.stickyWrapper .locationWalk03.show .desc{
+  opacity: 1;
+  top: 26%;
+}
+/* End Location Walk 03 */
+/* Location Walk 04 */
+.stickyWrapper .locationWalk04{}
+.stickyWrapper .locationWalk04.show{}
+.stickyWrapper .locationWalk04 .info{
+  left: 45%;
+}
+.stickyWrapper .locationWalk04.show .info{}
+.stickyWrapper .locationWalk04 .desc,
+.stickyWrapper .locationWalk04.show .desc{
+  right: 12%;
+}
+.stickyWrapper .locationWalk04.show .info{
+  opacity: 1;
+  top: 80%;
+}
+.stickyWrapper .locationWalk04.show .desc{
+  opacity: 1;
+  top: 26%;
+}
+/* End Location Walk 04 */
+/* Location Walk 05 */
+.stickyWrapper .locationWalk05{}
+.stickyWrapper .locationWalk05.show{}
+.stickyWrapper .locationWalk05 .info{
+  left: 0%;
+}
+.stickyWrapper .locationWalk05.show .info{}
+.stickyWrapper .locationWalk05 .desc,
+.stickyWrapper .locationWalk05.show .desc{
+  right: 28%;
+}
+.stickyWrapper .locationWalk05.show .info{
+  opacity: 1;
+  top: 90%;
+}
+.stickyWrapper .locationWalk05.show .desc{
+  opacity: 1;
+  top: 26%;
+}
+/* End Location Walk 05 */
+/* End Section Location Walk */
+
+/* Section Location Car */
+.stickyWrapper .locationCar{}
+.stickyWrapper .locationCar.show{}
+.stickyWrapper .locationCar.out{}
+.stickyWrapper .locationCar .car{}
+.stickyWrapper .locationCar .car.move01{}
+.stickyWrapper .locationCar .car.move02{}
+.stickyWrapper .locationCar .car.move03{}
+.stickyWrapper .locationCar .car.move04{}
+.stickyWrapper .locationCar .car.move05{}
+.stickyWrapper .locationCar .car.out{}
+.stickyWrapper .locationCar .car .image{}
+.stickyWrapper .locationCar .heading{}
+#mainWrap.lang-id .stickyWrapper .locationCar .heading,
+#mainWrap.lang-id .stickyWrapper .locationCar .itemSC{}
+.stickyWrapper .locationCar .heading::after{}
+.stickyWrapper .locationCar .heading h2{}
+.stickyWrapper .locationCar .itemSC{}
+.stickyWrapper .locationCar .itemSC h3{}
+.stickyWrapper .locationCar .itemSC h5{}
+.stickyWrapper .locationCar .car{
+  position: absolute;
+  top: 100vh;
+  left: 2vw;
+  right: 0;
+  width: 40vw;
+  height: auto;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car.move01{
+  top: 50vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car.move02{
+  top: 40vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car.move03{
+  top: 30vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car.move04{
+  top: 20vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car.move05{
+  top: 10vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .car .image{}
+.stickyWrapper .locationCar .heading{
+  position: absolute;
+  opacity: 1;
+  top: 15vh;
+  left: 45vw;
+  width: 45vw;
+  transition: all 1s;
+}
+#mainWrapMobile.lang-id .stickyWrapper .locationCar .heading,
+#mainWrapMobile.lang-id .stickyWrapper .locationCar .itemSC{
+  width: 45vw;
+}
+.stickyWrapper .locationCar .heading::after{
+  content: '';
+  position: absolute;
+  bottom: -62vh;
+  left: 0;
+  width: 100%;
+  border: 0.1vh solid #FFFFFF;
+}
+.stickyWrapper .locationCar .heading h2{
+  margin-bottom: 0;
+  font-family: "LustPro-No5";
+  font-size: 10vw;
+  line-height: 8.5vh;
+  color: #FFFFFF;
+}
+.stickyWrapper .locationCar .itemSC{
+  position: absolute;
+  opacity: 1;
+  left: 45vw;
+  width: 45vw;
+}
+.stickyWrapper .locationCar .itemSC h3{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  width: 26%;
+  font-family: "Akkurat Pro Regular";
+  font-size: 10vw;
+  color: #A48F69;
+}
+.stickyWrapper .locationCar .itemSC h5{
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  font-family: "Akkurat Pro Regular";
+  font-size: 4.6vw;
+  line-height: 3.5vh;
+  color: #143C89;
+  margin-bottom: 0;
+}
+#mainWrapMobile.lang-id .stickyWrapper .locationCar .itemSC h5{
+  font-size: 4vw;
+}
+/* itemSC16 */
+.stickyWrapper .locationCar .itemSC16{}
+.stickyWrapper .locationCar .itemSC16.show{}
+.stickyWrapper .locationCar .itemSC16{
+  opacity: 0;
+  top: 40vh;
+  transition: all 1s;
+  transition-delay: .3s !important;
+}
+.stickyWrapper .locationCar .itemSC16.show{
+  opacity: 1;
+  top: 30vh;
+  transition: all 1s;
+  transition-delay: .3s !important;
+}
+/* End itemSC16 */
+/* itemSC17 */
+.stickyWrapper .locationCar .itemSC17{}
+.stickyWrapper .locationCar .itemSC17.show{}
+.stickyWrapper .locationCar .itemSC17{
+  opacity: 0;
+  top: 50vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .itemSC17.show{
+  opacity: 1;
+  top: 40vh;
+  transition: all 1s;
+}
+/* End itemSC17 */
+/* itemSC18 */
+.stickyWrapper .locationCar .itemSC18{}
+.stickyWrapper .locationCar .itemSC18.show{}
+.stickyWrapper .locationCar .itemSC18{
+  opacity: 0;
+  top: 60vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .itemSC18.show{
+  opacity: 1;
+  top: 50vh;
+  transition: all 1s;
+}
+/* End itemSC18 */
+/* itemSC19 */
+.stickyWrapper .locationCar .itemSC19{}
+.stickyWrapper .locationCar .itemSC19.show{}
+.stickyWrapper .locationCar .itemSC19{
+  opacity: 0;
+  top: 70vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .itemSC19.show{
+  opacity: 1;
+  top: 60vh;
+  transition: all 1s;
+}
+/* End itemSC19 */
+/* itemSC20 */
+.stickyWrapper .locationCar .itemSC20{}
+.stickyWrapper .locationCar .itemSC20.show{}
+.stickyWrapper .locationCar .itemSC20{
+  opacity: 0;
+  top: 80vh;
+  transition: all 1s;
+}
+.stickyWrapper .locationCar .itemSC20.show{
+  opacity: 1;
+  top: 70vh;
+  transition: all 1s;
+}
+/* End itemSC20 */
+/* End Section Location Car */
+/* ======================================================= */
+/*                      END BASE                           */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                        NAVIGATION                       */
+/* ======================================================= */
+/* Section Main Nav */
+#main-nav{
+  padding: 8vw 5vw;
+  height: 12vh;
+}
+#main-nav a:hover,
+#main-sidenav a:hover{}
+#main-nav .logo{
+  position: relative;
+  top: unset;
+  left: unset;
+  width: 28vw;
+}
+.main-nav-reachus,
+.main-nav-lang,
+#main-nav .menu{}
+.main-nav-reachus{
+  display: none;
+}
+.main-nav-lang,
+#main-sidenav .main-nav-lang{
+  position: absolute;
+  margin: 0;
+  padding: 3vw 0;
+  top: 8vw;
+  right: 25vw;
+  width: 9.5vw;
+  height: 9.5vw;
+  line-height: 3vw;
+}
+.main-nav-lang p,
+#main-sidenav .main-nav-lang p{
+  width: 100%;
+  height: 100%;
+  line-height: 3.5vw;
+}
+#main-nav .menu{
+  display: block;
+  float: right;
+  margin: 0;
+  top: 0;
+  width: 15vw;
+  height: 9.5vw;
+}
+#main-nav .menu .burger{
+  margin: 0 auto;
+  top: 55%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 30%;
+}
+#main-nav .menu .burger svg{
+  font-size: 5vw;
+}
+#main-nav .menu .burger span{
+  margin-bottom: 1.3vw;
+  height: 0.5vw;
+}
+#main-nav .menu .burger span:last-child{
+  margin-bottom: 0;
+}
+#main-nav .menu p{
+  display: none;
+}
+/* End Section Main Nav */
+
+/* Section Side Nav */
+#main-sidenav{}
+#main-sidenav.active{}
+#main-sidenav .logo{
+  top: 8vw;
+  left: 5vw;
+  width: 28vw;
+}
+#main-sidenav .container-fluid{}
+#main-sidenav .container-fluid .row{}
+#main-sidenav .main-nav-reachus,
+#main-sidenav .main-nav-lang{}
+#main-sidenav .main-nav-lang{}
+#main-sidenav .cross{
+  top: 8vw;
+  right: 5vw;
+  width: 15vw;
+  height: 9.5vw;
+}
+#main-sidenav .cross span{
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 5vw;
+  height: 3vw;
+}
+#main-sidenav .cross span:before,
+#main-sidenav .cross span:after{}
+#main-sidenav .cross span:before{}
+#main-sidenav .cross span:after{}
+#main-sidenav ul{
+  padding: 0 5vw;
+}
+#main-sidenav ul li a{
+  font-size: 6.5vw;
+  line-height: 8.5vw;
+}
+#main-sidenav .main-nav-reachus{
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  padding: 3vw 0;
+  bottom: 10vw;
+  left: 0;
+  right: 0;
+  width: 45%;
+}
+/* End Section Side Nav */
+/* ======================================================= */
+/*                    END NAVIGATION                       */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 01                        */
+/* ======================================================= */
+/* Panel 01 */
+.panel01{}
+.panel01 .ornament{
+  display: none;
+}
+.panel01 .background{
+  position: absolute;
+  z-index: 1;
+  bottom: -100vh;
+  right: 0;
+  width: 100vw;
+  height: 60vh;
+  background: #143C89;
+  transition: all .3s;
+}
+.panel01.active .background{
+  bottom: 0;
+  right: 0;
+  width: 10vw;
+  height: 33vh;
+  transition: all .3s;
+}
+.panel01 .background.effect01.effect02{
+  bottom: -100vh;
+  right: 0;
+  width: 100vw;
+  height: 60vh;
+}
+.panel01 .brief,
+.panel01 .brief.effect01{
+  position: absolute;
+  bottom: 36vh;
+  left: 5vw;
+  width: 75vw;
+  height: 16vh;
+}
+.panel01 .goDown{
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  margin: 0 auto;
+  bottom: 100vh;
+  left: 0;
+  right: 0;
+  width: 8vh;
+  height: 8vh;
+  background: #C2AD80;
+  cursor: pointer;
+  transition: all .3s;
+}
+.panel01.active .goDown{
+  opacity: 1;
+  bottom: 5vh;
+  transition: all .3s;
+}
+.panel01 .image{
+  position: absolute;
+  bottom: -40vh;
+  left: 0;
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  transition: all .3s;
+}
+.panel01.active .image{
+  bottom: 0;
+  left: 17vw;
+  width: 83vw;
+  height: 33vh;
+  transition: all .3s;
+}
+.panel01 .image.effect01.effect02{
+  bottom: -40vh;
+  left: 0;
+  width: 100vw;
+  height: 40vh;
+}
+.panel01 .heading{
+  position: absolute;
+  padding-top: 1vh;
+  top: 17vh;
+  left: 2vw;
+  width: auto;
+  height: 30vh;
+  /*  
+  width: 75vw;
+  height: auto;
+  */
+  overflow: hidden;
+}
+.panel01 .heading img{
+  width: auto;
+}
+.panel01 .heading h2{
+  margin: 0;
+  font-family: "LustPro-No5";
+  font-weight: bold;
+  font-size: 21vw;
+  line-height: 10vh;
+  color: #143C89;
+}
+/* End Panel 01 */
+/* ======================================================= */
+/*                     END PANEL 01                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 02                        */
+/* ======================================================= */
+/* Panel 02 */
+.panel02{}
+.panel02 .slider{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  transition: all .3s;
+}
+.panel02.active .slider{
+  opacity: 1;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: ease;
+  transition-delay: .4s;
+}
+.panel02 .slider .secaboutus-carousel .owl-dots{
+  display: none;
+}
+.panel02 .slider .secaboutus-carousel .owl-nav{
+  position: absolute;
+  margin: 0;
+  bottom: 2vh;
+  right: 0;
+  width: 100vw;
+}
+.panel02 .slider .secaboutus-carousel .owl-nav button,
+.panel02 .slider .secaboutus-carousel .owl-nav span{
+  margin: 0;
+  border-radius: 0;
+  width: 8vh;
+  height: 8vh;
+}
+.panel02 .slider .secaboutus-carousel .item{
+  width: 100vw;
+  height: 100vh;
+}
+.panel02 .slider .secaboutus-carousel .item .subimage{
+  width: 100vw;
+  height: 40vh;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc{
+  position: absolute;
+  z-index: 2;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 60vh;
+  text-align: center;
+  background: #143C89;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc h2,
+.panel02 .slider .secaboutus-carousel .item .subdesc p{
+  color: #FFFFFF;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc h2{
+  margin: 0 0 4vh;
+  padding: 4vh 5vw;
+  font-family: "LustPro-No5";
+  font-size: 7vw;
+  line-height: 5vh;
+  border-top: 0.1vw solid #FFFFFF;
+  border-bottom: 0.1vw solid #FFF;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc h2 span{
+  font-family: "LustPro-No1";
+  font-size: 8vw;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc .wrapperMobile{
+  position: relative;
+  width: 100vw;
+  height: 38vh;
+  overflow: auto;
+}
+.panel02 .slider .secaboutus-carousel .item .subdesc p{
+  margin: 0 auto 3vw;
+  width: 90vw;
+  font-size: 3vw;
+}
+/* End Panel 02 */
+/* ======================================================= */
+/*                     END PANEL 02                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 03                        */
+/* ======================================================= */
+/* Panel 03 */
+.panel03{}
+.panel03 .building{
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  top: 80vh;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 81vh;
+  transition: all 1s;
+}
+.panel03.active .building{
+  opacity: 1;
+  top: 19vh;
+  transition: all 1s;
+}
+.panel03 .building.show{
+  animation: panel03building 1s ease forwards !important;
+}
+@keyframes panel03building{
+  0%{opacity: 0;top: 80vh;}
+  100%{opacity: 1;top: 19vh;}
+}
+.panel03 .heading{
+  position: absolute;
+  margin: 0 auto;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+}
+.panel03 .heading h2{
+  opacity: 0;
+  font-size: 10vw;
+  font-family: "LustPro-No5";
+  color: #143C89;
+  transition: all 1s;
+}
+.panel03.active .heading h2{
+  opacity: 1;
+  transition: all 1s;
+}
+.panel03 .compLine{
+  left: 0;
+}
+.panel03 .compLine.compLine01{
+  display: none;
+  top: 11.6vh;
+}
+.panel03 .compLine.compLine02{
+  display: none;
+  top: 22.3vh;
+}
+.panel03 .compLine.compLine03{
+  top: 72vh;
+}
+.panel03 .compLine.compLine04{
+  top: 83vh;
+}
+.panel03 .btnSC03{
+  position: absolute;
+  margin: 0;
+  padding: 2.5vh 0;
+  top: 72vh;
+  width: 30vw;
+  height: 11vh;
+  font-family: "LustPro-No5";
+  font-size: 3vw;
+  line-height: 3vh;
+  text-align: center;
+  color: #FFFFFF;
+  background: #143C89;
+  cursor: pointer;  
+}
+.panel03 .btnSC03:hover{
+  background: #C2AD80;
+}
+.panel03 .btnSC03.btnSC0301{left: 6vw;}
+.panel03 .btnSC03.btnSC0302{right: 6vw;}
+.panel03 .btnSC03::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 12vw;
+  height: 11vh;
+  background-color: #C2AD80 !important;
+  background-repeat: no-repeat !important;
+  background-size: 40% !important;
+  background-position: center !important;
+}
+.panel03 .btnSC03.btnSC0301::after{
+  left: 100%;
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+}
+.panel03 .btnSC03.btnSC0302::after{
+  right: 100%;
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+}
+
+/* Section Popup Default */
+.towerFP .modal-dialog{}
+.towerFP .modal-dialog .modal-content{}
+.towerFP .modal-dialog .modal-content .btnFP-close{
+  z-index: 2;
+  padding: 2vw 5vw;
+  bottom: 7vw;
+  right: 7vw;
+}
+.towerFP .modal-dialog .modal-content .btnFP-close:hover{}
+.towerFP .modal-dialog .modal-content .btnFP-nav{
+  z-index: 2;
+  top: unset;
+  bottom: 25%;
+  right: 10vw;
+  width: 15vw;
+  height: 15vw;
+  background-color: #153C89 !important;
+  border: 0.1vw solid #153C89;
+}
+#towerWrap02.towerFP .modal-dialog .modal-content .btnFP-nav{
+  left: 10vw;
+}
+.towerFP .modal-dialog .modal-content .title{
+  z-index: 2;
+  top: 10vw;
+}
+#towerWrap02.towerFP .modal-dialog .modal-content .title{
+  text-align: right;
+}
+.towerFP .modal-dialog .modal-content .title h2{
+  margin-bottom: 2vw;
+  font-size: 8vw;
+  line-height: 8vw;
+}
+.towerFP .modal-dialog .modal-content .title h4{
+  font-size: 6vw;
+  line-height: 6vw;
+}
+/* End Section Popup Default */
+
+/* Section Popup Tower */
+.towerFP .modal-dialog .modal-content .infoWrap{
+  z-index: 1;
+  opacity: 1;
+  top: 35vw;
+  left: unset;
+  right: 5vw;
+  width: 46vw;
+  height: 60vw;
+}
+#towerWrap02.towerFP .modal-dialog .modal-content .infoWrap{
+  left: 5vw;
+  right: unset;
+}
+.towerFP .modal-dialog .modal-content .infoWrap.active{
+  top: 35vw;
+}
+.towerFP .modal-dialog .modal-content .infoWrap .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap .lineTop::after{}
+#towerWrap02.towerFP .modal-dialog .modal-content .infoWrap .lineTop::after{}
+.towerFP .modal-dialog .modal-content .infoWrap .lineBottom{
+  display: none;
+}
+#towerWrap02.towerFP .modal-dialog .modal-content .infoWrap .lineBottom{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-CAMPANILE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-SKY-GARDEN .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-WALDORF-ASTORIA-HOTEL .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-OBSERVATORY-DECK .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-PENTHOUSE-OFFICE-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-OFFICE-HIGH-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-OFFICE-MID-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor-OFFICE-LOW-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWFloor{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWFloor.noFloor{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWFloor h4{
+  padding: 4vw;
+  font-size: 7vw;
+  line-height: 7vw;
+}
+.towerFP .modal-dialog .modal-content .infoWrap .IWImage{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWImage.noFloor{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWImage img{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWTitle{}
+.towerFP .modal-dialog .modal-content .infoWrap .IWTitle h5{
+  padding: 4vw;
+  font-size: 5vw;
+  line-height: 6vw;
+}
+.towerFP .modal-dialog .modal-content .buildingWrap{}
+.towerFP .modal-dialog .modal-content .buildingWrap img#map01,.towerFP .modal-dialog .modal-content .buildingWrap img#map02{}
+#towerWrap02.towerFP .modal-dialog .modal-content .buildingWrap{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-HELIPAD .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-OBSERVATORY-DECK .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-PAN-PACIFIC-HOTEL .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-PARKROYAL-SERVICED-SUITES .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-OFFICE-MID-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-OFFICE-LOW-ZONE .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-PARKROYAL-HOTEL .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-MUSIC-HALL .lineTop{}
+.towerFP .modal-dialog .modal-content .infoWrap.floor02-AGORA-LIFESTYLE-MALL .lineTop{}
+.secfloorplan-carousel{}
+.secfloorplan-carousel .item{
+  width: 100vw;
+  height: 100vh;
+}
+.secfloorplan-carousel .item .image{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: -8vw;
+  right: 0;
+  width: 100vw;
+  height: auto;
+}
+.secfloorplan-carousel .item .navSlider{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 15vw;
+  height: 33vw;
+}
+.secfloorplan-carousel .item .navSlider a{
+  display: inline-block;
+  margin: 0;
+  width: 15vw;
+  height: 15vw;
+  background-repeat: no-repeat !important;
+  background-size: 40% !important;
+  background-position: center !important;
+  border: 0.1vw solid #C2AD80;
+  border-radius: 50vw;
+  transition: all .3s;
+  cursor: pointer;
+}
+.secfloorplan-carousel .item .navSlider a:hover{
+  background-color: transparent !important;
+  transition: all .3s;
+}
+.secfloorplan-carousel .item .navSlider .navsecfloorplanPrevBtn{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  background-color: #C2AD80 !important;
+  transform: rotate(90deg);
+  transition: all .3s;
+}
+.secfloorplan-carousel .item .navSlider .navsecfloorplanNextBtn{
+  margin-top: 5%;
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  background-color: #C2AD80 !important;
+  transform: rotate(90deg);
+  transition: all .3s;
+}
+.secfloorplan-carousel .item .navSlider .navsecfloorplanPrevBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;
+  transition: all .3s;
+}
+.secfloorplan-carousel .item .navSlider .navsecfloorplanNextBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;
+  transition: all .3s;
+}
+.secfloorplan-carousel .item .navSlider .disable{
+  opacity: .5;
+}
+.secfloorplan-carousel .owl-dots{
+  display: none;
+}
+.secfloorplan-carousel .owl-nav{
+  display: none;
+  position: absolute;
+  bottom: 118.3%;
+  right: 2.6%;
+  width: 15%;
+}
+/* End Section Popup Tower */
+
+/* Section Popup Tower Autograph */
+#towerWrap01 .buildingObj{}
+#towerWrap01 .buildingObj .buildingFloorplan{}
+#towerWrap01 .buildingObj .buildingFloorplan.opc{}
+#towerWrap01 .buildingObj .buildingFloorplan.opc.active{}
+#towerWrap01 .buildingObj .buildingTar{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT01{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT02.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT02.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT03.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT03.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT04{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT05.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT05.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT06.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT06.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT07.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT07.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT08.SFPBTLeft{}
+#towerWrap01 .buildingObj .buildingTar.SFPBT08.SFPBTRight{}
+#towerWrap01 .buildingObj .buildingDot{}
+#towerWrap01 .buildingObj .buildingDot.active{}
+#towerWrap01 .buildingObj .buildingDot.SFPD01{}
+#towerWrap01 .buildingObj .buildingDot.SFPD02{}
+#towerWrap01 .buildingObj .buildingDot.SFPD03{}
+#towerWrap01 .buildingObj .buildingDot.SFPD04{}
+#towerWrap01 .buildingObj .buildingDot.SFPD05{}
+#towerWrap01 .buildingObj .buildingDot.SFPD06{}
+#towerWrap01 .buildingObj .buildingDot.SFPD07{}
+#towerWrap01 .buildingObj .buildingDot.SFPD08{}
+/* End Section Popup Tower Autograph */
+
+/* Section Popup Tower Luminary */
+#towerWrap02 .buildingObj{}
+#towerWrap02 .buildingObj .buildingFloorplan{}
+#towerWrap02 .buildingObj .buildingFloorplan.opc{}
+#towerWrap02 .buildingObj .buildingFloorplan.opc.active{}
+#towerWrap02 .buildingObj .buildingTar{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT01.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT01.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT02.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT02.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT03.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT03.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT04.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT04.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT05.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT05.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT06.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT06.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT07{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT08{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT09.SFPBTLeft{}
+#towerWrap02 .buildingObj .buildingTar.SFPBT09.SFPBTRight{}
+#towerWrap02 .buildingObj .buildingDot{}
+#towerWrap02 .buildingObj .buildingDot.active{}
+#towerWrap02 .buildingObj .buildingDot.SFPD01{}
+#towerWrap02 .buildingObj .buildingDot.SFPD02{}
+#towerWrap02 .buildingObj .buildingDot.SFPD03{}
+#towerWrap02 .buildingObj .buildingDot.SFPD04{}
+#towerWrap02 .buildingObj .buildingDot.SFPD05{}
+#towerWrap02 .buildingObj .buildingDot.SFPD06{}
+#towerWrap02 .buildingObj .buildingDot.SFPD07{}
+#towerWrap02 .buildingObj .buildingDot.SFPD08{}
+#towerWrap02 .buildingObj .buildingDot.SFPD09{}
+/* End Section Popup Tower Luminary */
+/* End Panel 03 */
+/* ======================================================= */
+/*                     END PANEL 03                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 04                        */
+/* ======================================================= */
+/* Panel 04 */
+.panel04{}
+.panel04 .compLine{}
+.panel04 .compLine.compLine01{}
+.panel04 .compLine.compLine02{}
+.panel04 .compBFTitle{}
+.panel04 .compBFTitle h3{}
+.panel04 .compBFImage{}
+.panel04 .compBFImage img{}
+.panel04 .compBtn{}
+.panel04 .compBtn img{}
+.panel04 .compBFHeading{}
+.panel04 .compBFHeading img{}
+.panel04 .compLine.compLine01{
+  top: 70.2%;
+}
+.panel04 .compLine.compLine02{
+  top: 81%;
+}
+.panel04 .compBFTitle{  
+  top: 70%;
+  left: 5vw;
+  width: auto;
+  height: 11vh;
+}
+.panel04 .compBFImage{
+  top: 45%;
+  left: 5vw;
+  width: 90vw;
+  height: 50vh;
+}
+.panel04 .compBtn{
+  margin: 0 auto;
+  top: 64%;
+  left: 0;
+  right: 0;
+  width: 52vw;
+}
+.panel04 .compBFHeading{
+  top: 29%;
+  left: 47.2vw;
+  width: 28vw;
+}
+/* End Panel 04 */
+/* ======================================================= */
+/*                     END PANEL 04                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 05                        */
+/* ======================================================= */
+/* Panel 05 */
+.panel05{}
+.panel05 .compLine{}
+.panel05 .compLine.compLine01{}
+.panel05 .compLine.compLine02{}
+.panel05 .compBFTitle{}
+.panel05 .compBFTitle h3{}
+.panel05 .compBFImage{}
+.panel05 .compBFImage img{}
+.panel05 .compBtn{}
+.panel05 .compBtn img{}
+.panel05 .compBFHeading{}
+.panel05 .compBFHeading img{}
+.panel05 .compLine.compLine01{
+  top: 70.2%;
+}
+.panel05 .compLine.compLine02{
+  top: 81%;
+}
+.panel05 .compBFTitle{
+  top: 70%;
+  left: 5vw;
+  right: unset;
+  width: auto;
+  height: 11vh;
+}
+.panel05 .compBFImage{
+  top: 45%;
+  left: 5vw;
+  right: unset;
+  width: 90vw;
+  height: 50vh;
+}
+.panel05 .compBtn{
+  margin: 0 auto;
+  top: 64%;
+  left: 0;
+  right: 0;
+  width: 52vw;
+}
+.panel05 .compBFHeading{
+  top: 30%;
+  left: 15.25vw;
+  width: 32.2vw;
+}
+/* End Panel 05 */
+/* ======================================================= */
+/*                     END PANEL 05                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 06                        */
+/* ======================================================= */
+/* Panel 06 */
+.panel06{}
+.panel06 .compLine{}
+.panel06 .compLine.compLine01{}
+.panel06 .compLine.compLine02{}
+.panel06 .compBFTitle{}
+.panel06 .compBFTitle h3{}
+.panel06 .compBFImage{}
+.panel06 .compBFImage img{}
+.panel06 .compBtn{}
+.panel06 .compBtn img{}
+.panel06 .compBFHeading{}
+.panel06 .compBFHeading img{}
+.panel06{
+  background: #E9E4DC;
+}
+.panel06 .compLine.compLine01{
+  top: 70.2%;
+}
+.panel06 .compLine.compLine02{
+  top: 81%;
+}
+.panel06 .compBFTitle{
+  top: 70%;
+  left: 5vw;
+  right: unset;
+  width: auto;
+  height: 11vh;
+}
+.panel06 .compBFImage{
+  top: 45%;
+  left: 5vw;
+  width: 90vw;
+  height: 50vh;
+}
+.panel06 .compBtn{
+  margin: 0 auto;
+  top: 64%;
+  left: 0;
+  right: 0;
+  width: 52vw;
+}
+.panel06 .compBFHeading{
+  top: 44.5%;
+  left: 52.16vw;
+  width: 34vw;
+}
+/* End Panel 06 */
+/* ======================================================= */
+/*                     END PANEL 06                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 07                        */
+/* ======================================================= */
+/* Panel 07 */
+.panel07{}
+.panel07 .slider{}
+.panel07 .slider .secbuildingfeatures-carousel{}
+.panel07 .slider .secbuildingfeatures-carousel .item{}
+.panel07 .slider .secbuildingfeatures-carousel .item .image{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-dots{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav{}
+.panel07 .slider .secbuildingfeatures-carousel.owl-carousel .owl-nav button.owl-next,
+.panel07 .slider .secbuildingfeatures-carousel.owl-carousel .owl-nav button.owl-prev{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-left-linegold{}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-right-linegold{}
+.panel07 .slider .secbuildingfeatures-carousel .item .logo{}
+.panel07 .slider .secbuildingfeatures-carousel .item .btn-gold{}
+.panel07 .compLine{}
+.panel07 .compLine.compLine01{}
+.panel07 .compLine.compLine02{}
+.panel07 .compBFTitle{}
+.panel07 .compBFTitle h3{}
+.panel07 .slider{
+  position: absolute;
+  margin: 0 auto;
+  top: 48.4%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 90vw;
+  height: 58.6vh;  
+}
+.panel07 .slider .secbuildingfeatures-carousel .item{
+  width: 100%;
+}
+.panel07 .slider .secbuildingfeatures-carousel .item .image{
+  height: 42vh;
+  object-fit: cover;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-dots{
+  display: none;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav{
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: unset;
+  right: 0;
+}
+.panel07 .slider .secbuildingfeatures-carousel.owl-carousel .owl-nav button.owl-next,
+.panel07 .slider .secbuildingfeatures-carousel.owl-carousel .owl-nav button.owl-prev{
+  margin: 0;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span{
+  margin: 0;
+  width: 15vw;
+  height: 9vh;
+  background-color: #FFFFFF !important;
+  background-size: 40% !important;
+  border: 1px solid #C2AD80;
+  border-radius: 0;
+  transition: all .3s;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover{
+  background-color: #C2AD80 !important;
+  transition: all .3s;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-left-linegold{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  transition: all .3s;
+}
+.panel07 .slider .secbuildingfeatures-carousel .owl-nav span:hover.owl-icon-right-linegold{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  transition: all .3s;
+}
+.panel07 .slider .secbuildingfeatures-carousel .item .logo{
+  position: relative;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  padding: 1.5vh 3vw;
+  width: 60vw;
+  height: 9vh;
+  object-fit: contain;
+  background: #143C89;
+}
+.panel07 .slider .secbuildingfeatures-carousel .item .btn-gold{
+  position: absolute;
+  z-index: 4;
+  margin: 0 auto;
+  top: 80%;
+  bottom: unset;
+  left: 0;
+  right: 0;
+  width: 52vw;
+}
+.panel07 .compLine.compLine01{
+  top: 70.2%;
+}
+.panel07 .compLine.compLine02{
+  top: 81%;
+}
+.panel07 .compBFTitle{
+  top: 70%;
+  left: 5vw;
+  right: unset;
+  width: auto;
+  height: 11vh;
+}
+/* End Panel 07 */
+/* ======================================================= */
+/*                     END PANEL 07                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 08                        */
+/* ======================================================= */
+/* Panel 08 */
+.panel08 .ornament{}
+.panel08 .compLine{}
+.panel08 .compLine.compLine01{}
+.panel08 .compLine01.show{
+  animation: panel08compLine01 1s ease forwards !important;
+}
+@keyframes panel08compLine01{
+  0%{opacity: 0;top: 78vh;}
+  100%{opacity: 1;top: 25.2vh;}
+}
+.panel08 .compLine.compLine02{}
+.panel08 .compLine02.show{
+  animation: panel08compLine02 1s ease forwards !important;
+}
+@keyframes panel08compLine02{
+  0%{opacity: 0;top: 130vh;}
+  100%{opacity: 1;top: 77.2vh;}
+}
+.panel08 .heading{}
+.panel08 .heading.show{
+  animation: panel08heading 1s ease forwards !important;
+}
+@keyframes panel08heading{
+  0%{opacity: 0;transform: scale(1.3);}
+  100%{opacity: 1;transform: scale(1);}
+}
+.panel08 .heading h2{}
+.panel08 .navSlider{}
+.panel08 .navSlider.show{
+  animation: panel08navSlider 1s ease forwards !important;
+}
+@keyframes panel08navSlider{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.panel08 .navSlider a{}
+.panel08 .navSlider a:hover{}
+.panel08 .navSlider .navsecfacilitiesPrevBtn{}
+.panel08 .navSlider .navsecfacilitiesNextBtn{}
+.panel08 .navSlider .navsecfacilitiesPrevBtn:hover{}
+.panel08 .navSlider .navsecfacilitiesNextBtn:hover{}
+.panel08 .navSlider .disable{}
+.panel08 .slider{}
+.panel08 .slider.show{
+  animation: panel08slider 1s ease forwards !important;
+}
+@keyframes panel08slider{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.panel08 .slider .secfacilities-carousel .owl-dots,
+.panel08 .slider .secfacilities-carousel .owl-nav{}
+.panel08 .slider .secfacilities-carousel .item{}
+.panel08 .slider .secfacilities-carousel .item .wrap{}
+.panel08 .slider .secfacilities-carousel .item .wrap img{}
+.panel08 .slider .secfacilities-carousel .item .wrap .layer{}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .layer{}
+.panel08 .slider .secfacilities-carousel .item .wrap .line{}
+.panel08 .slider .secfacilities-carousel .item .wrap .desc{}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .desc{}
+.panel08 .slider .secfacilities-carousel .item .wrap .desc p{}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .line{}
+.panel08 .slider .secfacilities-carousel .item .wrap h3{}
+.panel08 .slider .secfacilities-carousel .item .wrap .icon{}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .icon{}
+.panel08{}
+.panel08 .ornament{
+  position: absolute;
+  top: -25.7vh;
+  left: -5vw;
+  width: 90vw;
+  height: 90vw;
+  border: 0.1vh solid #143C89;
+  border-radius: 50vw; 
+}
+.panel08 .compLine{}
+.panel08 .compLine.compLine01{
+  top: 45.2vh;
+  transition: all 1s;
+}
+.panel08.active .compLine.compLine01{
+  top: 25.2vh;
+  transition: all 1s;
+}
+.panel08 .compLine.compLine02{
+  top: 77.2vh;
+  transition: all 1s;
+}
+.panel08.active .compLine.compLine02{
+  top: 77.2vh;
+  transition: all 1s;
+}
+.panel08 .heading{
+  position: absolute;
+  opacity: 0;
+  top: 13vh;
+  left: 5vw;
+  width: auto;
+  height: auto;
+  transform: scale(1.3);
+  transition: all 1s;
+}
+.panel08.active .heading{
+  animation: panel08heading 1s ease forwards !important;
+  transition: all 1s;
+}
+@keyframes panel08heading{
+  0%{opacity: 0;transform: scale(1.3);}
+  100%{opacity: 1;transform: scale(1);}
+}
+.panel08 .heading h2{
+  margin: 0;
+  font-family: "LustPro-No5";
+  font-size: 10vw;
+  color: #143C89;
+}
+.panel08 .navSlider{
+  display: none;
+  position: absolute;
+  top: 10.5vh;
+  right: 8vw;
+  width: 9.2vw;
+  height: 8.2vh;
+}
+.panel08 .navSlider a{
+  display: inline-block;
+  margin: 0;
+  width: 8.2vh;
+  height: 8.2vh;
+  background-repeat: no-repeat !important;
+  background-size: 40% !important;
+  background-position: center !important;
+  border: 0.1vh solid #C2AD80;
+  border-radius: 50vw;
+  transition: all .5s;
+  cursor: pointer;
+}
+.panel08 .navSlider a:hover{
+  background-color: #C2AD80 !important;
+  transition: all .5s;
+}
+.panel08 .navSlider .navsecfacilitiesPrevBtn{
+background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;
+transition: all .5s;
+}
+.panel08 .navSlider .navsecfacilitiesNextBtn{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;
+  transition: all .5s;
+  float: right;
+}
+.panel08 .navSlider .navsecfacilitiesPrevBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  transition: all .5s;
+}
+.panel08 .navSlider .navsecfacilitiesNextBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  transition: all .5s;
+}
+.panel08 .navSlider .disable{
+  opacity: .5;
+}
+.panel08 .slider{
+  position: relative;
+  top: 25vh;
+  left: 0;
+  width: 100vw;
+  height: 62vh;
+}
+.panel08 .slider .secfacilities-carousel .owl-dots,
+.panel08 .slider .secfacilities-carousel .owl-nav{
+  display: none;
+}
+.panel08 .slider .secfacilities-carousel .item{
+  padding-right: 5%;
+  width: 100%;
+  height: 62vh;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap{
+  position: relative;
+  width: 100%;
+  height: 62vh;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap .layer{
+  position: absolute;
+  opacity: 1;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #143C89;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .layer{
+  opacity: 0.7;
+  height: 100%;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap .line{
+  position: absolute;
+  bottom: 11.1%;
+  left: 0;
+  width: 0;
+  height: 0.11vh;
+  background: #FFFFFF;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap .desc{
+  position: absolute;
+  opacity: 0;
+  padding: 7%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .desc{
+  opacity: 1;
+  height: 100%;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap .desc p{
+  color: #FFFFFF;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .line{
+  width: 100%;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap h3{
+  position: absolute;
+  bottom: 4%;
+  left: 7vw;
+  font-family: "Akkurat Bold";
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap .icon{
+  position: absolute;
+  bottom: 5%;
+  transform: unset;
+  right: 6%;
+  width: 4vh;
+  height: 4vh;
+  transition: all .5s;
+}
+.panel08 .slider .secfacilities-carousel .item .wrap:hover .icon{
+  transform: rotate(-135deg);
+  transition: all .5s;
+}
+/* End Panel 08 */
+/* ======================================================= */
+/*                     END PANEL 08                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 09                        */
+/* ======================================================= */
+/* Panel 09 */
+.panel09 .navSlider{}
+.panel09 .navSlider.show{
+  animation: panel09navSlider 1s ease forwards !important;
+}
+@keyframes panel09navSlider{
+  0%{opacity: 0;right: -5.7vw;}
+  100%{opacity: 1;right: 5.7vw;}
+}
+.panel09 .navSlider a{}
+.panel09 .navSlider a:hover{}
+.panel09 .navSlider .navsecpanoramaPrevBtn{}
+.panel09 .navSlider .navsecpanoramaNextBtn{}
+.panel09 .navSlider .navsecpanoramaPrevBtn:hover{}
+.panel09 .navSlider .navsecpanoramaNextBtn:hover{}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable,
+.panel09 .navSlider .navsecpanoramaNextBtn.disable{}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable:hover,
+.panel09 .navSlider .navsecpanoramaNextBtn.disable:hover{}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable:hover{}
+.panel09 .navSlider .navsecpanoramaNextBtn.disable:hover{}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable{}
+.panel09 .navSlider .navsecpanoramaNextBtn.disable{}
+.panel09 .spWrap{}
+.panel09 .spWrap.slide01{}
+.panel09 .spWrap.slide01.slide02{}
+.panel09 .spWrap .image{}
+.panel09 .spWrap.slide01{}
+.panel09{}
+.panel09 .navSlider{
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  top: 6vh;
+  right: -50vw;
+  width: 35vw;
+  height: 8vh;
+  transition: all 1s;
+}
+.panel09.active .navSlider{
+  opacity: 1;
+  right: 5vw;
+  transition: all 1s;
+}
+.panel09 .navSlider a{
+  display: inline-block;
+  margin: 0;
+  width: 8.2vh;
+  height: 8.2vh;
+  background-repeat: no-repeat !important;
+  background-size: 40% !important;
+  background-position: center !important;
+  background-color: #C2AD80 !important;
+  border: 0.1vh solid #C2AD80;
+  border-radius: 50vw;
+  transition: all .5s;
+  cursor: pointer;
+}
+.panel09 .navSlider a:hover{
+  background-color: #FFFFFF !important;
+  transition: all .5s;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn{
+  position: relative;
+  z-index: 2;
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  transition: all .5s;
+}
+.panel09 .navSlider .navsecpanoramaNextBtn{
+  position: relative;
+  z-index: 2;
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  transition: all .5s;
+  float: right;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-gold.png') !important;
+  transition: all .5s;
+}
+.panel09 .navSlider .navsecpanoramaNextBtn:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png') !important;
+  transition: all .5s;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable,
+.panel09 .navSlider .navsecpanoramaNextBtn.disable{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  opacity: 0.5;
+  cursor: default;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable:hover,
+.panel09 .navSlider .navsecpanoramaNextBtn.disable:hover{
+  background-color: #C2AD80 !important;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+}
+.panel09 .navSlider .navsecpanoramaNextBtn.disable:hover{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+}
+.panel09 .navSlider .navsecpanoramaPrevBtn.disable{
+  left: 0;
+}
+.panel09 .navSlider .navsecpanoramaNextBtn.disable{
+  right: 0;
+}
+.panel09 .spWrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 100%;
+  transition: all .5s;
+}
+.panel09 .spWrap.slide01{
+  left: -50vw;
+  transition: all .5s;
+}
+.panel09 .spWrap.slide01.slide02{
+  left: -1000vw;
+  transition: all .5s;
+}
+.panel09 .spWrap .image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.panel09 .spWrap.slide01{
+  transition: all .5s;
+}
+/* End Panel 09 */
+/* ======================================================= */
+/*                     END PANEL 09                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 10                        */
+/* ======================================================= */
+/* Panel 10 */
+.panel10{}
+.panel10 .ornament{}
+.panel10 .ornament.ornament01{}
+.panel10 .ornament01.show{
+  animation: panel10ornament01 1s ease forwards !important;
+}
+@keyframes panel10ornament01{
+  0%{opacity: 0;top: 10vh;right: -60vh;}
+  100%{opacity: 1;top: -10vh;right: -40vw;}
+}
+.panel10 .ornament.ornament02{}
+.panel10 .ornament02.show{
+  animation: panel10ornament02 1s ease forwards !important;
+}
+@keyframes panel10ornament02{
+  0%{opacity: 0;bottom: -50vh;left: -60vh;}
+  100%{opacity: 1;bottom: -10vh;left: -40vw;}
+}
+.panel10 .heading{}
+.panel10 .heading.show{
+  animation: panel10heading 1s ease forwards !important;
+}
+@keyframes panel10heading{
+  0%{opacity: 0;top: 100%;}
+  30%{opacity: 0;top: 100%;}
+  100%{opacity: 1;top: 50%;}
+}
+.panel10 .heading h2,
+.panel10 .heading h2 span{}
+.panel10{
+  z-index: 3;
+  background: #B2B2B2;
+}
+.panel10 .ornament{
+  position: absolute;
+  opacity: 0;
+  width: 80vw;
+  height: 80vw;
+  border: 0.1vh solid #FFF;
+  border-radius: 50vh;
+  transition: all 1s;
+}
+.panel10 .ornament.ornament01{
+  top: -50vh;
+  right: -80vw;
+  transition: all 1s;
+}
+.panel10.active .ornament.ornament01{
+  opacity: 1;
+  top: -10vh;
+  right: -40vw;
+  transition: all 1s;
+}
+.panel10 .ornament.ornament02{
+  bottom: -50vh;
+  left: -80vw;
+  transition: all 1s;
+}
+.panel10.active .ornament.ornament02{
+  opacity: 1;
+  bottom: -10vh;
+  left: -40vw;
+  transition: all 1s;
+}
+.panel10 .heading{
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  top: 80%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  width: 80vw;
+  height: auto;
+  transition: all 1s;
+}
+.panel10.active .heading{
+  opacity: 1;
+  top: 50%;
+  transition: all 1s;
+}
+.panel10 .heading h2,
+.panel10 .heading h2 span{
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-family: "LustPro-No5";
+  font-size: 11vw;
+  line-height: 8vh;
+  text-align: center;
+  color: #143C89;
+}
+/* End Panel 10 */
+/* ======================================================= */
+/*                     END PANEL 10                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 11                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 11                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 12                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 12                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 13                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 13                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 14                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 14                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 15                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 15                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 16                        */
+/* ======================================================= */
+/* Panel/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 16                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 17                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 17                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 18                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 18                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 19                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 19                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 20                        */
+/* ======================================================= */
+/* Source Code Here */
+/* ======================================================= */
+/*                     END PANEL 20                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 21                        */
+/* ======================================================= */
+/* Panel 21 */
+.panel21{}
+.panel21 .maps{}
+.panel21 .maps .images{}
+.panel21 .button{}
+.panel21 .button.show{animation: panel21button 1s ease forwards !important;}
+@keyframes panel21button{
+  0%{opacity: 0;bottom: 0;}
+  100%{opacity: 1;bottom: 11vh;}
+}
+.panel21 .button .compBtn{}
+.panel21{
+  z-index: 3;
+  background-color: #FFFFFF;
+}
+.panel21 .maps{
+  position: absolute;
+  margin: 0 auto;
+  top: 20vw;
+  transform: unset;
+  left: 0;
+  right: 0;
+  width: 90vw;
+  height: 67vh;
+}
+.panel21 .button{
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  bottom: 0vh;
+  left: 0;
+  right: 0;
+  width: 60vw;
+  transition: all 1s;
+}
+.panel21.active .button{
+  opacity: 1;
+  bottom: 10vh;
+  transition: all 1s;
+}
+/* End Panel 21 */
+/* ======================================================= */
+/*                     END PANEL 21                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 22                        */
+/* ======================================================= */
+/* Panel 22 */
+.panel22{}
+.panel22 .SACompBrief{}
+.panel22 .SACompBrief.active{
+  left: 5vw;
+}
+.panel22 .SACompBrief h6{}
+.panel22 .SACompBrief h6 b{}
+.panel22 .SACompBrief h4{}
+.panel22 .SACompBrief h5{}
+.panel22 .SACompBrief h2{}
+.panel22 .SACompBrief p{}
+.panel22 .SACompBrief a{}
+.panel22 .SAOrnament{}
+.panel22 .SAOrnament.active{
+  top: 190vh;
+}
+.panel22 .SAOrnament.hide{}
+.panel22 .SAImage{}
+.panel22 .SAImage.active{}
+.panel22 .SACompLogo{}
+.panel22 .SACompLogo.active{}
+.panel22{}
+.panel22 .SACompBrief{
+  opacity: 0;
+  margin: unset;
+  top: 50vh;
+  right: unset;
+  left: 5vw;
+  transition: all .8s;
+}
+.panel22.active .SACompBrief{
+  opacity: 1;
+  top: 5vh;
+  transition: all .8s;
+}
+.panel22 .SAOrnament{
+  position: absolute;
+  z-index: 1;
+  top: 90vh;
+  left: 0;
+  width: 100vw;
+  height: auto;
+}
+.panel22 .SAImage{
+  position: absolute;
+  opacity: 0;
+  top: 58vh;
+  bottom: unset;
+  right: 0;
+  width: 36vh;
+  height: 40vh;
+  transition: all 1s;
+}
+.panel22.active .SAImage{
+  opacity: 1;
+  transition: all 1s;
+}
+.panel22 .SACompLogo{
+  z-index: 2;
+  opacity: 0;
+  top: 90vh;
+  left: 25vw;
+  right: 37vw;
+  width: 20vh;
+  height: 20vh;
+  transition: all .7s;
+}
+.panel22.active .SACompLogo{
+  opacity: 1;
+  top: 75vh;
+  transition: all .7s;
+}
+/* End Panel 22 */
+/* ======================================================= */
+/*                     END PANEL 22                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 23                        */
+/* ======================================================= */
+/* Panel 23 */
+.panel23{}
+.panel23 .SACompBrief{
+  left: 0;
+  right: 0;
+  width: 90vw;
+}
+.panel23 .SACompBrief.active{
+  right: 0;
+}
+.panel23 .SACompBrief h6{}
+.panel23 .SACompBrief h6 b{}
+.panel23 .SACompBrief h4{}
+.panel23 .SACompBrief h5{}
+.panel23 .SACompBrief h2{}
+.panel23 .SACompBrief p{}
+.panel23 .SACompBrief a{}
+.panel23 .SAOrnament{}
+.panel23 .SAImage{}
+.panel23 .SAImage.active{}
+.panel23 .SACompLogo{
+  right: 0;
+}
+.panel23 .SACompLogo.active{
+  top: 78vh;
+  left: 53vw;
+}
+.panel23 .SACompBrief{
+  opacity: 0;
+  top: 50vh;
+  transition: all .8s;
+}
+.panel23.active .SACompBrief{
+  opacity: 1;
+  top: 5vh;
+  transition: all .8s;
+}
+.panel23 .SACompBrief h4{
+  color: #FFFFFF;
+}
+.panel23 .SAImage{
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  bottom: -20vh;
+  left: 0;
+  right: 11vw;
+  width: 36vh;
+  height: 35vh;
+  transition: all .7s;
+}
+.panel23.active .SAImage{
+  opacity: 1;
+  bottom: 0;
+  transition: all .7s;
+}
+.panel23 .SACompLogo{
+  opacity: 0;
+  top: 78vh;
+  left: 53vw;
+  transition: all 1s;
+}
+.panel23.active .SACompLogo{
+  opacity: 1;
+  transition: all 1s;
+}
+/* End Panel 23 */
+/* ======================================================= */
+/*                     END PANEL 23                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 24                        */
+/* ======================================================= */
+/* Panel 24 */
+.panel24{}
+.panel24 .SACompBrief{}
+.panel24 .SACompBrief.active{}
+.panel24 .SACompBrief h6{}
+.panel24 .SACompBrief h6 b{}
+.panel24 .SACompBrief h4{}
+.panel24 .SACompBrief h5{}
+.panel24 .SACompBrief h5 b{}
+.panel24 .SACompBrief h2{}
+.panel24 .SACompBrief h2,
+.panel24 .SACompBrief h2 span{}
+.panel24 .SACompBrief h2 span{}
+.panel24 .SACompBrief p{}
+.panel24 .SACompBrief a{}
+.panel24 .SAOrnament{}
+.panel24 .SAImage01{}
+.panel24 .SAImage02{
+  display: none;
+}
+.panel24 .SACompLogo{}
+.panel24 .SACompBrief{
+  opacity: 0;
+  margin: unset;
+  top: 50vh;
+  left: 5vw;
+  right: 0;
+  width: 90vw;
+  height: 100vh;
+  transition: all .8s;
+}
+.panel24.active .SACompBrief{
+  opacity: 1;
+  top: 5vh;
+  transition: all .8s;
+}
+.panel24 .SACompBrief h6{
+  margin-bottom: 1vh;
+}
+.panel24 .SACompBrief h6 b{}
+.panel24 .SACompBrief h4{}
+.panel24 .SACompBrief h5{
+  margin: 0;
+  width: 90vw;
+  font-family: "Akkurat Pro Regular";
+  font-size: 4.6vw;
+  line-height: 3.6vh;
+  color: #143C89;
+}
+.panel24 .SACompBrief h5 b{
+  display: block;
+  margin-bottom: 0;
+  font-family: "Akkurat Bold";
+  font-size: 4.6vw;
+  line-height: 3.6vh;
+  font-weight: unset;
+  color: #143C89;
+}
+.panel24 .SACompBrief h2{
+  margin: 2vh 0;
+}
+.panel24 .SACompBrief h2,
+.panel24 .SACompBrief h2 span{
+  font-family: "Akkurat Bold";
+  font-size: 6vw;
+  line-height: 4.5vh;
+  font-weight: unset;
+  color: #143C89;
+}
+.panel24 .SACompBrief h2 span{
+  color: #FFFFFF;
+}
+.panel24 .SACompBrief p{
+  margin: 1vh 0 2vh;
+  width: 90vw;
+  color: #143C89;
+}
+.panel24 .SACompBrief a{
+  padding: 2vh 13vw 2vh 5vw;
+}
+.panel24 .compBtn img{
+  right: 6vw;
+}
+.panel24 .SAOrnament{
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  transition: all .8s;
+}
+.panel24 .SAImage01{
+  position: absolute;
+  opacity: 0;
+  top: unset;
+  bottom: 0;
+  right: 0;
+  width: 24vh;
+  height: 30vh;
+  transition: all .8s;
+}
+.panel24.active .SAImage01{
+  opacity: 1;
+  transition: all .8s;
+}
+.panel24 .SACompLogo{
+  opacity: 0;
+  margin: unset;
+  top: unset;
+  bottom: -20vh;
+  left: unset;
+  right: 30vw;
+  width: 16vh;
+  height: 16vh;
+  transition: all .8s;
+}
+.panel24.active .SACompLogo{
+  opacity: 1;
+  bottom: 5vh;
+  transition: all .8s;
+}
+/* End Panel 24 */
+/* ======================================================= */
+/*                     END PANEL 24                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 25                        */
+/* ======================================================= */
+/* Panel 25 */
+.panel25{}
+.panel25{}
+.panel25 .ornament01{}
+.panel25 .ornament01.show{
+  animation: panel25ornament01 1s ease forwards !important;
+}
+@keyframes panel25ornament01{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.panel25 .ornament01 span{}
+.panel25 .ornament01 span:first-child{}
+.panel25 .ornament01 span:nth-child(2){}
+.panel25 .ornament01 span:last-child{}
+.panel25 .ornament02{}
+.panel25 .ornament02.show{
+  animation: panel25ornament02 1s ease forwards !important;
+}
+@keyframes panel25ornament02{
+  0%{opacity: 0;right: -20vw;}
+  100%{opacity: 1;right: 0;}
+}
+.panel25 .ornament02 span{}
+.panel25 .ornament02 span:first-child{}
+.panel25 .ornament02 span:last-child{}
+.panel25 h2{}
+.panel25 h2.show{
+  animation: panel25h2 1s ease forwards !important;
+}
+@keyframes panel25h2{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.panel25 #tabsNav{}
+.panel25 .tabsAnimation01{}
+.panel25 .tabsAnimation01.show{
+  animation: panel25tabsAnimation01 1s ease forwards !important;
+}
+@keyframes panel25tabsAnimation01{
+  0%{opacity: 0;top: 20vh;}
+  100%{opacity: 1;top: 0;}
+}
+.panel25 .tabsAnimation02{}
+.panel25 .tabsAnimation02.show{
+  animation: panel25tabsAnimation02 1s ease forwards !important;
+}
+@keyframes panel25tabsAnimation02{
+  0%{opacity: 0;right: -20vw;}
+  100%{opacity: 1;right: 0;}
+}
+.panel25 #tabsNav .navList{}
+.panel25 #tabsNav .navList.active h3{}
+.panel25 #tabsNav .navList h3{}
+.panel25 #tabsNav .navList p{}
+.panel25 #tabsNav .tabsContent{}
+.panel25 #tabsNav .tabsContent.active{}
+.panel25 #tabsNav .tabsContent .images{}
+.panel25 #tabsNav .tabsContent .info{}
+.panel25 #tabsNav .tabsContent .btn-gold{}
+.panel25 #tabsNav .tabsContent .btn-gold img{}
+.panel25{
+  background-color: #FFFFFF;
+}
+.panel25 .ornament01{
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #FFFFFF;
+  border: 0.1vh solid #143C89;
+}
+.panel25 .ornament01 span{
+  position: absolute;
+  margin: 0;
+}
+.panel25 .ornament01 span:first-child{
+  top: 0;
+  left: 0;
+  width: 5vw;
+  height: 100%;
+  background: #143C89;
+}
+.panel25 .ornament01 span:nth-child(2){
+  bottom: 100%;
+  left: 5vw;
+  width: 0.3vw;
+  height: 10vh;
+  background: #143C89;
+}
+.panel25 .ornament01 span:last-child{
+  bottom: 0;
+  left: 46.5vw;
+  width: 0.3vw;
+  height: 100%;
+  background: #143C89;
+}
+.panel25 h2{
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  top: 7.3vh;
+  left: 7vw;
+  width: auto;
+  font-family: "LustPro-No5";
+  font-size: 7.6vw;
+  text-align: center;
+  color: #143C89;
+  transform: scale(1.3);
+  transition: all 1s;
+}
+.panel25.active h2{
+  animation: panel25heading 1s ease forwards !important;
+  transition: all 1s;
+}
+@keyframes panel25heading{
+  0%{opacity: 0;transform: scale(1.3);}
+  100%{opacity: 1;transform: scale(1);}
+}
+
+.panel25 .secawards-carousel{
+  position: absolute;
+  opacity: 0;
+  top: 50vh;
+  left: 0;
+  width: 100vw;
+  height: 85vh;
+  transition: all 1s;
+}
+.panel25.active .secawards-carousel{
+  opacity: 1;
+  top: 15vh;
+  transition: all 1s;
+}
+.panel25 .secawards-carousel .item{}
+.panel25 .secawards-carousel .item .wrapImage{
+  position: relative;
+  width: 100vw;
+  height: 55vh;
+}
+.panel25 .secawards-carousel .item .wrapImage .images{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.panel25 .secawards-carousel .item .wrapImage .info{
+  top: 40%;
+  width: 30%;
+}
+.panel25 .secawards-carousel .item .wrapImage .compBtn{
+  position: absolute;
+  margin: 0 auto;
+  padding: 2vh 5vw 2vh 10vw;
+  bottom: 8%;
+  left: 0;
+  right: 0;
+  width: 57%;
+}
+.panel25 .secawards-carousel .item .wrapImage .navSlider{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 0;
+}
+.panel25 .secawards-carousel .item .wrapImage .navSlider a{
+  position: absolute;
+  margin: 0;
+  top: 40vw;
+  width: 15vw;
+  height: 15vw;
+  background-repeat: no-repeat !important;
+  background-size: 40% !important;
+  background-position: center !important;
+  background-color: #143C89 !important;
+  border: 0.1vw solid #143C89;
+  border-radius: 0;
+  transition: all .3s;
+  cursor: pointer;
+}
+.panel25 .secawards-carousel .item .wrapImage .navSlider .navsecawardsPrevBtn{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-left-white.png') !important;
+  left: 5vw;
+  transition: all .3s;
+}
+.panel25 .secawards-carousel .item .wrapImage .navSlider .navsecawardsNextBtn{
+  background-image: url('https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-white.png') !important;
+  right: 5vw;
+  transition: all .3s;
+}
+.panel25 .secawards-carousel .item .wrapInfo{
+  position: relative;
+  padding: 3vh 10vw;
+  width: 100vw;
+  height: 30vh;
+  text-align: center;
+}
+.panel25 .secawards-carousel .item .wrapInfo .counter{
+  margin-bottom: 2vh;
+  font-family: "LustPro-No1";
+  font-size: 5vw;
+  color: #C2AD80;
+}
+.panel25 .secawards-carousel .item .wrapInfo .counter b{
+  font-family: "LustPro-No5";
+  font-weight: unset;
+}
+.panel25 .secawards-carousel .item .wrapInfo h3{
+  margin-bottom: 2vh;
+  font-family: "Akkurat Pro Regular";
+  font-size: 5vw;
+  line-height: 7vw;
+  text-transform: uppercase;
+  color: #C2AD80;
+}
+.panel25 .secawards-carousel .item .wrapInfo p{
+  font-size: 3.7vw;
+  letter-spacing: 0;
+}
+.panel25 .secawards-carousel .owl-dots,
+.panel25 .secawards-carousel .owl-nav{
+  display: none;
+}
+/* End Panel 25 */
+/* ======================================================= */
+/*                     END PANEL 25                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 26                        */
+/* ======================================================= */
+/* Panel 26 */
+footer,footer .background{}
+footer .background{}
+footer #main-footer{}
+footer #main-footer .title{}
+footer #main-footer .title h3{}
+footer #main-footer .title h2{}
+footer #main-footer .inquire{}
+footer #main-footer .inquire form input,
+footer #main-footer .inquire form select,
+footer #main-footer .inquire form textarea{}
+footer #main-footer .inquire form select{}
+footer #main-footer .inquire form select option{}
+footer #main-footer .inquire form textarea{}
+footer #main-footer .inquire form input[type="submit"]{}
+#mainWrap .scrollify-panel.panel26{
+  overflow: unset;
+  height: 200vh !important;
+}
+footer #main-footer{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+footer #main-footer .title{
+  position: absolute;
+  padding: 0;
+  top: 10vh;
+  left: 8vw;
+  width: 40vw;
+  height: 25vh;
+}
+footer #main-footer .title h3{
+  margin-bottom: 0;
+  font-family: "Akkurat Pro Regular";
+  font-size: 2vw;
+}
+footer #main-footer .title h2{
+  margin-bottom: 0;
+  font-family: "LustPro-No5";
+  font-size: 6.5vw;
+  line-height: 15vh;
+}
+footer #main-footer .inquire{
+  position: absolute;
+  z-index: 2;
+  top: 10vh;
+  right: 8vw;
+  width: 40vw;
+  height: 40vh;
+}
+footer #main-footer .inquire form input,
+footer #main-footer .inquire form select,
+footer #main-footer .inquire form textarea{
+  margin-bottom: 1vw;
+  padding: 0.6vw 1.5vw;
+  font-family: "Akkurat Light";
+  font-size: 0.8vw;
+  letter-spacing: 0.03vw;
+  color: #231F20;
+  border: 0.1vw solid #C2AD80;
+  border-radius: 50vw;
+}
+footer #main-footer .inquire form select{
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  top: 1vw;
+  left: 0;
+  right: 0;
+  width: 90%;
+}
+footer #main-footer .inquire form select option{
+  opacity: 0.5;
+}
+footer #main-footer .inquire form textarea{
+  margin-bottom: 1vw;
+  padding-top: 4.5vw;
+  height: 9.7vw;
+  border-radius: 1.2vw;
+  resize: none;
+}
+footer #main-footer .inquire form input[type="submit"]{
+  float: right;
+  margin: 0;
+  padding: 1.2vw 3vw 1.2vw 1vw;
+  width: 43%;
+  color: #C2AD80;
+  background: url("https://thamrinnine.com/wp-content/themes/fethamrinnine/img/icon/arrow-right-gold.png");
+  background-repeat: no-repeat;
+  background-size: 1.3vw;
+  background-position: 63%;
+  border: 0.1vw solid #C2AD80;
+}
+/* Section Contact Form 7 */
+footer #main-footer .inquire form p{}
+footer #main-footer .inquire form br{}
+footer #main-footer .inquire form .wpcf7-form-control-wrap{}
+footer #main-footer .inquire form .wpcf7-response-output{}
+footer #main-footer .inquire form p{
+  margin-bottom: 0;
+}
+footer #main-footer .inquire form br{
+  display: none;
+}
+footer #main-footer .inquire form .wpcf7-form-control-wrap{
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+footer #main-footer .inquire form .wpcf7-response-output{
+  position: absolute;
+  bottom: -3vw;
+  left: 0;
+  width: 50%;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+/* End Section Contact Form 7 */
+footer #main-footer .logo{}
+footer #main-footer .logo img{}
+footer #main-footer .info{}
+footer #main-footer .info h5{}
+footer #main-footer .info p{}
+footer #main-footer .copyright{}
+footer #main-footer .social{}
+footer #main-footer .social ul{}
+footer #main-footer .social ul li{}
+footer #main-footer .social ul li a h5{}
+footer #main-footer .social ul li a img{}
+footer #main-footer .social ul li a.goTop{}
+footer #main-footer .social ul li a.goTop img{}
+footer #main-footer .social ul li a.goTop img.top{}
+footer #main-footer .logo{
+  position: absolute;
+  top: 55vh;
+  left: 8vw;
+  width: 46vw;
+  height: 20vh;
+}
+footer #main-footer .logo img{
+  width: 60%;
+}
+footer #main-footer .info{
+  position: absolute;
+  top: 60vh;
+  right: 8vw;
+  width: 40vw;
+  height: 20vh;
+}
+footer #main-footer .info h5{
+  display: inline-block;
+  margin-right: 20%;
+  vertical-align: top;
+  width: 30%;
+  font-family: "Akkurat Pro Regular";
+  font-size: 1.23vw;
+  line-height: 4vh;
+}
+footer #main-footer .info p{
+  display: inline-block;
+  width: 49%;
+}
+footer #main-footer .copyright{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 25.3%;
+  height: 7.4vw;
+}
+footer #main-footer .social{
+  position: absolute;
+  bottom: 0%;
+  right: 7.9%;
+  width: 66.9%;
+  height: 7.4vw;
+}
+footer #main-footer .social ul{
+  margin: 0;
+  padding: 0 14.6% 0 0;
+  list-style: none;
+  text-align: right;
+}
+footer #main-footer .social ul li{
+  display: inline-block;
+  padding: 0 0 0 1vw;
+}
+footer #main-footer .social ul li a h5{
+  font-size: 1.23vw;
+  line-height: 1.6vw;
+  color: #FFFFFF;
+}
+footer #main-footer .social ul li a img{
+  width: 3.2vw;
+}
+footer #main-footer .social ul li a.goTop{
+  cursor: pointer;
+}
+footer #main-footer .social ul li a.goTop img{
+  width: 2.5vw;
+}
+footer #main-footer .social ul li a.goTop img.top{
+  margin: 0 0.35vw 0 0;
+  width: 1.4vw;
+}
+/* Screen */
+footer #main-footer{
+  z-index: 2;
+  padding: 12.5vw 0 0;
+  height: 348vw;
+}
+footer #main-footer .title{
+  position: relative;
+  margin: 0 auto;
+  padding: 10vw 5vw 0;
+  top: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+}
+footer #main-footer .title h3{
+  margin-bottom: 1vw;
+}
+footer #main-footer .title h2{
+  margin: 0 0 3vw;
+  font-size: 17vw;
+  line-height: 17vw;
+}
+footer #main-footer .inquire{
+  position: relative;
+  margin: 0 auto;
+  padding: 0 5vw;
+  top: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+}
+footer #main-footer .inquire form input,
+footer #main-footer .inquire form select,
+footer #main-footer .inquire form textarea{
+  margin-bottom: 4vw;
+  padding: 4vw 5vw;
+  font-size: 3vw;
+  line-height: 3vw;
+}
+footer #main-footer .inquire form select{
+  top: 3vw;
+}
+footer #main-footer .inquire form textarea{
+  margin-bottom: 4vw;
+  padding: 18vw 5vw 5vw;
+  height: 50vw;
+  border-radius: 6vw;
+}
+footer #main-footer .inquire form input[type="submit"]{
+  padding: 5vw;
+  width: 100%;
+  background-size: 7vw;
+  background-position: 65%;
+}
+footer #main-footer .inquire form .wpcf7-spinner{
+  position: absolute;
+  margin: 0;
+  bottom: -10vw;
+  left: 4vw;
+}
+footer #main-footer .inquire form .wpcf7-response-output{
+  position: relative;
+  margin: 3vh 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+footer #main-footer .logo{
+  position: relative;
+  margin: 0 auto;
+  padding: 10vw 5vw;
+  top: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+footer #main-footer .logo img{
+  width: 70%;
+}
+footer #main-footer .info{
+  position: relative;
+  margin: 0 auto;
+  padding: 0 5vw 10vw;
+  top: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+footer #main-footer .info h5{
+  display: block;
+  margin-bottom: 5vw;
+  width: 100%;
+  font-size: 4.5vw;
+  line-height: 4.5vw;
+}
+footer #main-footer .info p{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+footer #main-footer .copyright{
+  position: relative;
+  margin: 0 auto;
+  padding: 10vw 5vw;
+  bottom: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+}
+footer #main-footer .copyright p{
+  position: relative;
+  top: unset;
+  transform: unset;
+}
+footer #main-footer .social{
+  position: relative;
+  margin: 0 auto;
+  padding: 10vw 5vw;
+  top: unset;
+  left: unset;
+  right: unset;
+  width: 100%;
+  height: auto;
+}
+footer #main-footer .social ul{
+  position: relative;
+  padding: 0;
+  top: unset;
+  transform: unset;
+  text-align: center;
+}
+footer #main-footer .social ul li{
+  display: inline-block;
+  margin: 0 2vw 5vh;
+  padding: 0;
+}
+footer #main-footer .social ul li:last-child{
+  display: block;
+  margin-bottom: 0;
+}
+footer #main-footer .social ul li a{
+  display: block;
+  margin: 0;
+  padding: 3vw;
+  border: 1px solid #FFF;
+  border-radius: 50vw;
+}
+footer #main-footer .social ul li:last-child a{
+  border: none;
+}
+footer #main-footer .social ul li a h5{
+  font-family: "Akkurat Pro Regular";
+  font-size: 4.5vw;
+  line-height: 4.5vw;
+}
+footer #main-footer .social ul li a img{
+  width: 7vw;
+  height: 7vw;
+}
+footer #main-footer .social ul li a.goTop h5{
+  margin-top: 2vw;
+}
+footer #main-footer .social ul li a.goTop img.top{
+  margin: -2vw 2vw 0 0;
+  width: 7vw;
+}
+footer #main-footer.compOSDef{
+  top: 0;
+}
+/* End Screen */
+/* End Panel 26 */
+/* ======================================================= */
+/*                     END PANEL 26                        */
+/* ======================================================= */
+
+
+
+/* ======================================================= */
+/*                         PANEL 00                        */
+/* ======================================================= */
+
+/* ======================================================= */
+/*                     END PANEL 00                        */
+/* ======================================================= */
+
+
+
+}
