@@ -123,7 +123,7 @@ a[data-toggle="collapse"]{cursor:pointer;}
   height: 100vh;
   z-index: 99;
   background-color: #FFFFFF !important;
-  background: url("https://website-assets.netlify.app/thamrinnine/img/preloader.gif") center no-repeat #fff;
+  background: url("https://website-assets.netlify.app/thamrinnine/img/thamrinnine-preloader.gif") center no-repeat #fff;
   background-size: 100vw;
   transition: all .3s;
 }
