@@ -1,0 +1,541 @@
+@media screen and (max-width: 846px){
+
+/*=========================================================================================================FONTS=========================================================================================================*/
+/* Fonts Custom Mobile Mobile */
+/* .fontMBigNumber{font-family: "CandidaStd-Roman";font-size: 48px;line-height: auto;letter-spacing: 0%;} */
+.fontMBigNumber{font-family: "CandidaStd-Roman";font-size: 7vw;line-height: 7vh;letter-spacing: 0;}
+
+/* Fonts Custom Mobile Title */
+/* .fontMTHero{font-family: "CandidaStd-Bold";font-size: 32px;line-height: 40px;letter-spacing: 20%;} */
+.fontMTHero{font-family: "CandidaStd-Bold";font-size: 6.3vw;line-height: 5vh;letter-spacing: 0.4vw;}
+/* .fontMTExtraLarge{font-family: "CandidaStd-Bold";font-size: 24px;line-height: 32px;letter-spacing: 20%;} */
+.fontMTExtraLarge{font-family: "CandidaStd-Bold";font-size: 6.3vw;line-height: 5vh;letter-spacing: 0.4vw;}
+
+/* Fonts Custom Mobile Subtitle */
+/* .fontMSLarge{font-family: "BrandonGrotesque-Bold";font-size: 32px;line-height: 32px;letter-spacing: 10%;} */
+.fontMSLarge{font-family: "BrandonGrotesque-Bold";font-size: 6.3vw;line-height: 4.5vh;letter-spacing: 0.2vw;}
+/* .fontMSMedium{font-family: "BrandonGrotesque-Bold";font-size: 24px;line-height: auto;letter-spacing: 10%;} */
+.fontMSMedium{font-family: "BrandonGrotesque-Bold";font-size: 6.3vw;line-height: 5vh;letter-spacing: 0.2vw;}
+/* .fontMSDecorativeModerate{font-family: "CandidaStd-Italic";font-size: 24px;line-height: auto;letter-spacing: 0%;} */
+.fontMSDecorativeModerate{font-family: "CandidaStd-Italic";font-size: 6.3vw;line-height: 5vh;letter-spacing: 0;}
+/* .fontMSDecorative{font-family: "CandidaStd-Italic";font-size: 16px;line-height: auto;letter-spacing: 0%;} */
+.fontMSDecorative{font-family: "CandidaStd-Italic";font-size: 4vw;line-height: 4vh;letter-spacing: 0;}
+
+/* Fonts Custom Mobile Body */
+/* .fontMBBold{font-family: "BrandonGrotesque-Bold";font-size: 20px;line-height: 30px;letter-spacing: 7%;} */
+.fontMBBold{font-family: "BrandonGrotesque-Bold";font-size: 4.8vw;line-height: 5vh;letter-spacing: 0.1vw;}
+/* .fontMBText{font-family: "PlusJakartaSans-Regular";font-size: 16px;line-height: 165%;letter-spacing: 0%;} */
+.fontMBText{font-family: "PlusJakartaSans-Regular";font-size: 4vw;line-height: 4vh;letter-spacing: 0;}
+
+/* Fonts Custom Mobile Caption */
+/* .fontMCBold{font-family: "PlusJakartaSans-Bold";font-size: 12px;line-height: auto;letter-spacing: 0%;} */
+.fontMCBold{font-family: "PlusJakartaSans-Bold";font-size: 3.8vw;line-height: 4vh;letter-spacing: 0;}
+/* .fontMCModerate{font-family: "PlusJakartaSans-Regular";font-size: 12px;line-height: 160%;letter-spacing: 0%;} */
+.fontMCModerate{font-family: "PlusJakartaSans-Regular";font-size: 3.8vw;line-height: 4vh;letter-spacing: 0;}
+/* .fontMCBreadcrumbs{font-family: "PlusJakartaSans-Bold";font-size: 8px;line-height: auto;letter-spacing: 20%;} */
+.fontMCBreadcrumbs{font-family: "PlusJakartaSans-Bold";font-size: 3vw;line-height: 3vh;letter-spacing: 0.2vw;}
+/* .fontMCDecorative{font-family: "CandidaStd-Italic";font-size: 14px;line-height: 150%;letter-spacing: 0%;} */
+.fontMCDecorative{font-family: "CandidaStd-Italic";font-size: 3.5vw;line-height: 3vh;letter-spacing: 0;}
+/*=========================================================================================================END DEFAULT=========================================================================================================*/
+
+/*=========================================================================================================COMPONENT=========================================================================================================*/
+#formLeParc .col-lg-6{
+  padding: 0;
+}
+#formLeParc input,
+#formLeParc select{
+  font-size: 3.8vw;
+  line-height: 7vw;
+  letter-spacing: 0;
+}
+#formLeParc select option{
+  font-size: 3.8vw;
+  line-height: 7vw;
+  letter-spacing: 0;
+}
+#formLeParc .btnLeParc01{
+  width: 45vw;
+}
+.ma-lg,.ma-m{margin: 0 auto !important;}
+.my-m-10vh{margin-top: 10vh !important;margin-bottom: 10vh !important;}
+.mt-m-8vh{margin-top: 8vh !important;}
+.mt-m-0{margin-top: 0 !important;}
+.mt-m-10vh{margin-top: 10vh !important;}
+.mb-m-0{margin-bottom: 0 !important;}
+.mb-m-2vh{margin-bottom: 2vh !important;}
+.mb-m-3vh{margin-bottom: 3vh !important;}
+.mb-m-5vh{margin-bottom: 5vh !important;}
+.mb-m-8vh{margin-bottom: 8vh !important;}
+.mb-m-10vh{margin-bottom: 10vh !important;}
+.mb-m-15vh{margin-bottom: 15vh !important;}
+.me-m-05vw{margin-right: 0.5vw !important;}
+.p-m-0{padding: 0 !important;}
+.pt-m-10vh{padding-top: 10vh !important;}
+.pt-m-13vh{padding-top: 13vh !important;}
+.pt-m-15vh{padding-top: 15vh !important;}
+.pt-m-20vh{padding-top: 20vh !important;}
+.pb-m-0{padding-bottom: 0 !important;}
+.pb-m-10vh{padding-bottom: 10vh !important;}
+.pb-m-20vh{padding-bottom: 20vh !important;}
+.ps-m-5vw{padding-left: 5vw !important;}
+.ps-m-8vw{padding-left: 8vw !important;}
+.ps-m-10vw{padding-left: 10vw !important;}
+.pe-m-8vw{padding-right: 8vw !important;}
+.pe-m-10vw{padding-right: 10vw !important;}
+.py-m-0{padding-top: 0 !important;padding-bottom: 0 !important;}
+.py-m-5vh{padding-top: 5vh !important;padding-bottom: 5vh !important;}
+.py-m-10vh{padding-top: 10vh !important;padding-bottom: 10vh !important;}
+.py-m-15vh{padding-top: 15vh !important;padding-bottom: 15vh !important;}
+.py-m-20vh{padding-top: 20vh !important;padding-bottom: 20vh !important;}
+.px-m-0{padding-left: 0 !important;padding-right: 0 !important;}
+.px-m-12px{padding-left: 12px !important;padding-right: 12px !important;}
+.px-m-2vw{padding-left: 2vw !important;padding-right: 2vw !important;}
+.px-m-5vw{padding-left: 5vw !important;padding-right: 5vw !important;}
+.px-m-10vw{padding-left: 10vw !important;padding-right: 10vw !important;}
+.t-m-60p{top: 60% !important;}
+.t-m-70p{top: 70% !important;}
+.t-m-65p{top: 65% !important;}
+.w-m-10p{width: 10% !important;}
+.w-m-15p{width: 15% !important;}
+.w-m-45p{width: 45% !important;}
+.w-m-52p{width: 52% !important;}
+.w-m-60p{width: 60% !important;}
+.w-m-65p{width: 65% !important;}
+.w-m-70p{width: 70% !important;}
+.w-m-85p{width: 85% !important;}
+.w-m-90p{width: 90% !important;}
+.btnLeParc01,
+.btnLeParc02{
+  padding: 1vh 4vw;
+}
+.btnLeParc01 span{
+  width: 6vw;
+  height: 6vw;
+}
+.btnLeParc01 p,.btnLeParc02 p{
+  font-size: 3.8vw;
+  line-height: 7vw;
+  letter-spacing: 0;
+}
+/*=========================================================================================================END COMPONENT=========================================================================================================*/
+
+
+/* Navigation */
+nav{
+  height: 15vh;
+  right: 8vw;
+  width: 13vw;
+}
+nav.mixBlend{
+  left: 8vw;
+  width: 10vw;
+}
+nav .btnLogo{
+  left: 8vw;
+}
+nav .btnLogo img{
+  width: 10vw;
+}
+nav .btnInformation{
+  display: none;
+}
+nav .btnLeParc01{
+  display: none;
+}
+nav .btnWhatsapp{
+  right: 0;
+  width: 13vw;
+  height: 13vw;
+}
+nav .btnWhatsapp i{
+  font-size: 7vw;
+  color: #B19052;
+}
+
+/* Brief */
+.homeBrief .fontWSModerate{
+  margin: 0 0 2vh;
+  width: 100%;
+  font-size: 4vw;
+  line-height: 4vh;
+  text-transform: unset !important;
+}
+.homeBrief .imgAwards{
+  margin-bottom: 0;
+  width: 20vw;
+}
+
+/* Gallery */
+.homeGallery .ornament01{
+  top: unset;
+  bottom: 0;
+}
+.homeGallery .ornament02{
+  height: 50vh;
+}
+.homeGallery .sliderHomeGallery .owl-nav{
+  top: unset;
+  bottom: 12vh;
+  width: 30vw;
+}
+.homeGallery .sliderHomeGallery .owl-nav button span{
+  width: 12vw;
+  height: 12vw;
+}
+.homeGallery .sliderHomeGallery .owl-nav button span.arrowLeft::after,
+.homeGallery .sliderHomeGallery .owl-nav button span.arrowRight::after{
+  width: 7vw;
+  height: 7vw;
+}
+
+/* Housings */
+.homeHousings .title{
+  position: absolute;
+  z-index: 1;
+  margin: 0 auto;
+  top: 8vh;
+  left: 0;
+  right: 0;
+  width: 60%;
+  text-align: center;
+}
+.homeHousings .itemMH{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.homeHousings .itemMH .background{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeHousings .itemMH .overlay{
+  width: 100%;
+  height: 100%;
+}
+.homeHousings .itemMH .description{
+  position: absolute;
+  margin: 0 auto;
+  top: 60%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 35%;
+  text-align: center;
+}
+.homeHousings .itemMH .description h3{
+  margin-bottom: 3vh;
+  font-size: 6vw;
+  line-height: 6vh;
+}
+.homeHousings .itemMH .description p{
+  font-size: 3.5vw;line-height: 3vh;letter-spacing: 0;
+}
+.homeHousings .itemMH .description ul li{
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+.homeHousings .itemMH .description ul.info li:first-child{
+  margin-right: 3vw;
+}
+.homeHousings .itemMH .description ul li img{
+  width: 12vw;
+}
+.homeHousings .itemMH .description ul li p{
+  font-size: 4vw;
+  line-height: 4vh;
+  letter-spacing: 0;
+}
+.homeHousings .itemMH .description ul.type{
+  margin: 0;
+}
+.homeHousings .itemMH .description ul.type li{
+  padding: 0 2vw;
+}
+.homeHousings .itemMH .description ul.type li:first-child{
+  padding-left: 0;
+}
+.homeHousings .itemMH .description ul.type li:last-child{
+  padding-right: 0;
+}
+.homeHousings .itemMH .description ul.type li:first-child::before,
+.homeHousings .itemMH .description ul.type li:last-child::after{
+  content: unset;
+}
+.homeHousings .itemMH .description ul.type li::after{
+  top: 1vh;
+  height: 70%;
+}
+.homeHousings .itemMH .description ul.type li p{
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  letter-spacing: 0;
+}
+
+/* Amenities */
+.homeAmenities .siteplan .dot{
+  width: 5vw;
+  height: 5vw;
+}
+.homeAmenities .siteplan .dot.active{
+  width: 10vw;
+  height: 10vw;
+}
+.homeAmenities .siteplan .dot.show{
+  z-index: 2;
+  width: 10vw;
+  height: 10vw;
+  background: #B19052;
+  border: 0.15vw solid #FFFFFF;
+}
+.homeAmenities .siteplan .dot.dot01{
+  top: 43%;
+  left: 18%;
+}
+.homeAmenities .siteplan .dot.dot02{
+  top: 29%;
+  left: 39.3%;
+}
+.homeAmenities .siteplan .dot.dot03{
+  top: 34.3%;
+  left: 53%;
+}
+.homeAmenities .siteplan .dot.dot04{
+  top: 69.5%;
+  left: 40.3%;
+}
+.homeAmenities .siteplan .dot.dot05{
+  top: 58%;
+  left: 44%;
+}
+.homeAmenities .siteplan .dot.dot06{
+  top: 20%;
+  left: 53.5%;
+}
+.homeAmenities .siteplan .dot.dot07{
+  top: 64.5%;
+  left: 42%;
+}
+.homeAmenities .siteplan .dot.dot08{
+  top: 64.5%;
+  left: 52.5%;
+}
+.homeAmenities .siteplan .dot.dot09{
+  top: 68.5%;
+  left: 47.3%;
+}
+.homeAmenities .siteplan .dot.dot10{
+  top: 17.5%;
+  left: 39.3%;
+}
+.homeAmenities .siteplan .dot.dot11{
+  top: 68.5%;
+  left: 32%;
+}
+.homeAmenities .siteplan .dot.dot12{
+  top: 64.5%;
+  left: 47.3%;
+}
+.homeAmenities .siteplan .dot.dot01.active,
+.homeAmenities .siteplan .dot.dot01.show{
+  top: 41%;
+  left: 15.5%;
+}
+.homeAmenities .siteplan .dot.dot02.active,
+.homeAmenities .siteplan .dot.dot02.show{
+  top: 27%;
+  left: 37%;
+}
+.homeAmenities .siteplan .dot.dot03.active,
+.homeAmenities .siteplan .dot.dot03.show{
+  top: 32%;
+  left: 50%;
+}
+.homeAmenities .siteplan .dot.dot04.active,
+.homeAmenities .siteplan .dot.dot04.show{
+  top: 67.5%;
+  left: 38%;
+}
+.homeAmenities .siteplan .dot.dot05.active,
+.homeAmenities .siteplan .dot.dot05.show{
+  top: 56%;
+  left: 41.5%;
+}
+.homeAmenities .siteplan .dot.dot06.active,
+.homeAmenities .siteplan .dot.dot06.show{
+  top: 18%;
+  left: 51%;
+}
+.homeAmenities .siteplan .dot.dot07.active,
+.homeAmenities .siteplan .dot.dot07.show{
+  top: 62.5%;
+  left: 39.5%;
+}
+.homeAmenities .siteplan .dot.dot08.active,
+.homeAmenities .siteplan .dot.dot08.show{
+  top: 62.5%;
+  left: 50%;
+}
+.homeAmenities .siteplan .dot.dot09.active,
+.homeAmenities .siteplan .dot.dot09.show{
+  top: 66.5%;
+  left: 45%;
+}
+.homeAmenities .siteplan .dot.dot10.active,
+.homeAmenities .siteplan .dot.dot10.show{
+  top: 15.5%;
+  left: 37%;
+}
+.homeAmenities .siteplan .dot.dot11.active,
+.homeAmenities .siteplan .dot.dot11.show{
+  top: 66.5%;
+  left: 29.5%;
+}
+.homeAmenities .siteplan .dot.dot12.active,
+.homeAmenities .siteplan .dot.dot12.show{
+  top: 62.5%;
+  left: 45.3%;
+}
+.homeAmenities .content{
+  position: relative;
+  top: unset;
+  transform: unset;
+  right: unset;
+  width: 100%;
+  text-align: center;
+}
+.homeAmenities .content .sliderHomeAmenities .item .imgSiteplan{
+  margin: 3vh auto;
+  width: 90%;
+}
+.homeAmenities .content .sliderHomeAmenities .item h6{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5vh;
+  padding: 1vh 5vw;
+  color: #F5F5F5;
+  border: 1px solid #B19052;
+  border-radius: 50vw;
+  background: #B19052;
+  cursor: pointer;
+  text-align: center;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav{
+  margin: 0 auto !important;
+  top: unset;
+  bottom: 1.5vh;
+  left: 0;
+  right: 0;
+  width: 45vw;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button{
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button.owl-prev{
+  left: 0;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button.owl-next{
+  right: 0;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button span{
+  width: 12vw;
+  height: 12vw;
+  background: #F5F5F5;
+  border: 1px solid #B19052;
+  transition: all .3s;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button:hover span{
+  background: #B19052;
+  border: 1px solid #B19052;
+  transition: all .3s;
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button span.arrowLeft::after{
+  background: url('../images/icon/arrow-gold-mid-left.svg');
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button:hover span.arrowLeft::after{
+  background: url('../images/icon/arrow-white-left.svg');
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button span.arrowRight::after{
+  background: url('../images/icon/arrow-gold-mid-right.svg');
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button:hover span.arrowRight::after{
+  background: url('../images/icon/arrow-white-right.svg');
+}
+.homeAmenities .content .sliderHomeAmenities .owl-nav button span.arrowLeft::after,
+.homeAmenities .content .sliderHomeAmenities .owl-nav button span.arrowRight::after{
+  width: 7vw;
+  height: 7vw;
+}
+.homeAmenities .content table{
+  display: none;
+}
+
+/* Access */
+.homeAccess{
+  text-align: center;
+}
+.homeAccess .ornament04{
+  top: 123vh;
+  left: 8vw;
+  width: 8vw;
+  transform: rotate(280deg);
+}
+.accordion-button::after{
+  width: 5vw;
+  height: 5vw;
+  background-size: 5vw;
+}
+.homeAccess #accordionAccess .accordion-item{
+  border-radius: 6vw;
+}
+.homeAccess #accordionAccess .accordion-item .accordion-header .accordion-button{
+  padding: 3vh 5vw;
+  font-size: 4.8vw;
+}
+.homeAccess #accordionAccess .accordion-item .accordion-collapse .accordion-body{
+  padding: 1vh 5vw;
+}
+.homeAccess table tr td{
+  display: block;
+  text-align: left;
+}
+.homeAccess table tr td img{
+  width: 12%;
+}
+
+.homeAccess .left,
+.homeAccess .right{
+  display: block;
+  margin-bottom: 5vh;
+  width: 100%;
+  text-align: left;
+}
+.homeAccess .maps{
+  float: unset;
+  width: 100%;
+}
+
+/* Contact */
+.homeContact .image{
+  height: 100vh;
+  object-fit: cover;
+}
+.homeContact .description{
+  top: 30%;
+  width: 84vw;
+  text-align: center;
+}
+.homeContact .btnBrochure{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  width: 50%;
+}
+
+}
